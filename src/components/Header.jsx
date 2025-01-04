@@ -75,7 +75,7 @@ const Header = () => {
             <Link to="/" onClick={() => window.scroll(0, 0)} className="flex items-center">
               <img
                 className="w-12"
-                src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/aaa.png?v=1713875658"
+                src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/studyHelpersLogo.png?v=1736002420"
                 alt="logo"
               />
               <h2 className="poppins text-gray-800 dark:text-gray-200 text-xl font-semibold">
