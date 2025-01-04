@@ -52,7 +52,7 @@ const OnlineClasses = () => {
               </h2>
               <p className="mb-3 sm:mb-4 text-md sm:text-md w-full sm:max-w-lg font-normal">
                 Struggling to keep up with your online classes? Don't worry,
-                Studywello is here to help! Our experienced tutors and academic
+                StudyHelpers is here to help! Our experienced tutors and academic
                 experts can provide you with the support you need to succeed in
                 your coursework.
               </p>
@@ -107,7 +107,7 @@ const OnlineClasses = () => {
               Struggling to Keep Up with Online Classes? Let Our Expert Team Handle It for You!
             </h1>
             <p className="mb-6 leading-relaxed">
-              Managing online coursework can be overwhelming and time-consuming, but you don't have to do it alone. With StudyWello, you gain access to over 50+ top-rated, degreed professionals who are ready to help you succeed. Our team specializes in delivering high-quality, plagiarism-free work tailored to meet strict academic standards. Say goodbye to the stress of looming deadlines and tough assignments, and hello to expert assistance that ensures top grades and peace of mind. We're here to handle your classes with precision and care, so you can focus on what matters most.
+              Managing online coursework can be overwhelming and time-consuming, but you don't have to do it alone. With StudyHelpers, you gain access to over 50+ top-rated, degreed professionals who are ready to help you succeed. Our team specializes in delivering high-quality, plagiarism-free work tailored to meet strict academic standards. Say goodbye to the stress of looming deadlines and tough assignments, and hello to expert assistance that ensures top grades and peace of mind. We're here to handle your classes with precision and care, so you can focus on what matters most.
             </p>
             <div className="flex justify-start">
               <Button text="Get Your Free Quote Now!" />

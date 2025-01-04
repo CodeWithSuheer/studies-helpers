@@ -32,7 +32,7 @@ const HomeServices = () => {
                             <h3 className="mb-2 font-medium text-xl text-[#1A73E8] group-hover:text-white">Online Class Support</h3>
                             <p className="mb-3 sm:mb-4 text-sm leading-6 font-normal text-black group-hover:text-white">
                                 Struggling to Keep Up with Online Classes? Let Our Expert Team Support Your Success!
-                                Managing online coursework can be overwhelming and time-consuming, but you don't have to face it alone. With StudyWello, you gain access to over 50+ top-rated, degreed professionals who are ready to help you toward academic excellence
+                                Managing online coursework can be overwhelming and time-consuming, but you don't have to face it alone. With StudyHelpers, you gain access to over 50+ top-rated, degreed professionals who are ready to help you toward academic excellence
                             </p>
 
                             <Link to="/online-classes" onClick={handleMoveToTop} className='flex items-center gap-2 text-md font-medium text-[#1A73E8] group-hover:text-white'>READ MORE <FaArrowRightLong size={14} /></Link>

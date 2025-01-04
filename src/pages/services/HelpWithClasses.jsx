@@ -95,7 +95,7 @@ const HelpWithClasses = () => {
               </h2>
               <p className="mb-3 sm:mb-4 text-md sm:text-md w-full sm:max-w-lg font-normal">
                 Struggling to keep up with your online classes? Don't worry,
-                Studywello is here to help! Our experienced tutors and academic
+                StudyHelpers is here to help! Our experienced tutors and academic
                 experts can provide you with the support you need to succeed in
                 your coursework.
               </p>
@@ -145,7 +145,7 @@ const HelpWithClasses = () => {
               Struggling to Keep Up with Online Classes? Let Our Expert Team Support Your Success!
             </h1>
             <p className="mb-6 leading-relaxed">
-              Managing online coursework can be overwhelming and time-consuming, but you don't have to face it alone. With StudyWello, you gain access to over 50+ top-rated, degreed professionals who are ready to guide you toward academic excellence. Our team specializes in delivering high-quality, plagiarism-free work that meets strict academic standards. Say goodbye to the stress of looming deadlines and tough assignments, and hello to expert assistance that ensures top results and peace of mind. We're here to handle your coursework with precision and care, so you can focus on what matters most.
+              Managing online coursework can be overwhelming and time-consuming, but you don't have to face it alone. With StudyHelpers, you gain access to over 50+ top-rated, degreed professionals who are ready to guide you toward academic excellence. Our team specializes in delivering high-quality, plagiarism-free work that meets strict academic standards. Say goodbye to the stress of looming deadlines and tough assignments, and hello to expert assistance that ensures top results and peace of mind. We're here to handle your coursework with precision and care, so you can focus on what matters most.
             </p>
             <div className="flex justify-start">
               <Button text="Get Your Free Quote Now!" />
@@ -266,7 +266,7 @@ const HelpWithClasses = () => {
                 Online Class
               </h3>
               <p className="mb-3 sm:mb-4 text-sm leading-6 font-normal text-black group-hover:text-white">
-                If you find yourself overwhelmed by urgent assignments or extensive coursework during your online classes, StudyWello offers flexible, reliable homework support. We provide efficient assistance at reasonable prices, including
+                If you find yourself overwhelmed by urgent assignments or extensive coursework during your online classes, StudyHelpers offers flexible, reliable homework support. We provide efficient assistance at reasonable prices, including
               </p>
 
               <Link to="/online-classes" onClick={handleMoveToTop} className='flex items-center gap-2 text-md font-medium text-[#1A73E8] group-hover:text-white'>READ MORE <FaArrowRightLong size={14} /></Link>

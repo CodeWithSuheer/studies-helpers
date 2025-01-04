@@ -5,18 +5,18 @@ const Contact = () => {
       <section className="bg-white dark:bg-gray-900 pt-10">
         <div className="container px-6 py-12 mx-auto">
           <div className="text-center ">
-            <p className="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
+            <p className="font-medium text-primaryText">Contact us</p>
 
-            <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">We’d love to hear from you</h1>
+            <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl">We’d love to hear from you</h1>
 
-            <p className="mt-3 text-gray-500 dark:text-gray-400">Chat to our friendly team.</p>
+            <p className="mt-3 text-primaryText">Chat to our friendly team.</p>
           </div>
 
           <img className="object-cover w-full h-64 mt-10 rounded-lg lg:h-96" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/photo-1568992688065-536aad8a12f6_1.jpg?v=1716291024" alt="" />
 
-          <div className="grid grid-cols-1 gap-12 lg:col-span-2 sm:grid-cols-2 pt-10">
-            <div className="p-4 rounded-lg bg-blue-50 md:p-6 dark:bg-gray-800">
-              <span className="inline-block p-3 text-blue-500 rounded-lg bg-blue-100/80 dark:bg-gray-700">
+          <div className="max-w-7xl mx-auto grid grid-cols-1 gap-12 lg:col-span-2 sm:grid-cols-2 pt-10">
+            <div className="p-4 rounded-lg bg-surfacev2 md:p-6">
+              <span className="inline-block p-3 text-primaryText rounded-lg bg-surface/80">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -38,12 +38,12 @@ const Contact = () => {
               <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
                 Email to our friendly team.
               </p>
-              <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
-                support@Studywello.com
+              <p className="mt-2 text-sm text-primaryText dark:text-blue-400">
+                support@studyhelpers.com
               </p>
             </div>
-            <div className="p-4 rounded-lg bg-blue-50 md:p-6 dark:bg-gray-800">
-              <span className="inline-block p-3 text-blue-500 rounded-lg bg-blue-100/80 dark:bg-gray-700">
+            <div className="p-4 rounded-lg bg-surfacev2 md:p-6">
+              <span className="inline-block p-3 text-primaryText rounded-lg bg-surface/80">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -72,13 +72,13 @@ const Contact = () => {
                 onClick={() => {
                   Tawk_API.toggle();
                 }}
-                className="mt-2 text-sm text-blue-500 dark:text-blue-400"
+                className="mt-2 text-sm text-primaryText dark:text-blue-400"
               >
                 Start new chat
               </button>
             </div>
-            <div className="p-4 rounded-lg bg-blue-50 md:p-6 dark:bg-gray-800">
-              <span className="inline-block p-3 text-blue-500 rounded-lg bg-blue-100/80 dark:bg-gray-700">
+            <div className="p-4 rounded-lg bg-surfacev2 md:p-6">
+              <span className="inline-block p-3 text-primaryText rounded-lg bg-surface/80">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -101,12 +101,12 @@ const Contact = () => {
                 Chat to support
               </p>
               <a href="https://api.whatsapp.com/send?phone=17163749747"
-                target="_blank" className="mt-2 text-sm text-blue-500 dark:text-blue-400">
+                target="_blank" className="mt-2 text-sm text-primaryText dark:text-blue-400">
                 Start new chat
               </a>
             </div>
-            <div className="p-4 rounded-lg bg-blue-50 md:p-6 dark:bg-gray-800">
-              <span className="inline-block p-3 text-blue-500 rounded-lg bg-blue-100/80 dark:bg-gray-700">
+            <div className="p-4 rounded-lg bg-surfacev2 md:p-6">
+              <span className="inline-block p-3 text-primaryText rounded-lg bg-surface/80">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -128,7 +128,7 @@ const Contact = () => {
               <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
                 24/7
               </p>
-              <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
+              <p className="mt-2 text-sm text-primaryText dark:text-blue-400">
                 +1 (716) 374-9747
               </p>
             </div>

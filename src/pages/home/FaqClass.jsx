@@ -27,7 +27,7 @@ const FaqClass = () => {
     const faqs = [
         {
             question: "Is it safe to pay someone to assist with my online class?",
-            answer: "Yes, it is safe when you choose a trusted and reputable service like StudyWello. We prioritize client confidentiality, utilize secure payment methods, and safeguard your identity and data. Our services adhere to strict privacy standards to ensure your peace of mind."
+            answer: "Yes, it is safe when you choose a trusted and reputable service like StudyHelpers. We prioritize client confidentiality, utilize secure payment methods, and safeguard your identity and data. Our services adhere to strict privacy standards to ensure your peace of mind."
         },
         {
             question: "How do you guarantee the quality of work?",

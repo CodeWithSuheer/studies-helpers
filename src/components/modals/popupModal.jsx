@@ -151,7 +151,7 @@ const OpeningModal = ({ isOpen, onClose }) => {
                                 alt="logo"
                             />
                             <h2 className="poppins text-gray-800 dark:text-gray-200 text-lg font-semibold tracking-wide">
-                                StudyWello
+                                StudyHelpers
                             </h2>
                         </h4>
                     </div>

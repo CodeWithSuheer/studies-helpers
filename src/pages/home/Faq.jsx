@@ -25,7 +25,7 @@ const Faq = () => {
                         </summary>
 
                         <p className="mt-4 px-4 leading-relaxed text-gray-700">
-                            Yes, it is safe when you choose a trusted and reputable service like StudyWello. We prioritize client confidentiality, use secure payment methods, and ensure that your identity and data remain protected. Our services comply with strict privacy standards to give you peace of mind.
+                            Yes, it is safe when you choose a trusted and reputable service like StudyHelpers. We prioritize client confidentiality, use secure payment methods, and ensure that your identity and data remain protected. Our services comply with strict privacy standards to give you peace of mind.
                         </p>
                     </details>
 

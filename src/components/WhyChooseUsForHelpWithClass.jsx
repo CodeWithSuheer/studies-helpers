@@ -17,7 +17,7 @@ const WhyChooseUsForHelpWithClass = () => {
                             <img className='w-12' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Mask_group_6.png?v=1713363488" alt="" />
                             <h3 className="mt-2 text-xl">Least Interest In Studies</h3>
                             <p className="mt-2 text-gray-700 text-sm leading-normal">
-                                Lacking interest in a subject and struggling to complete the course can be discouraging. Though you may feel like giving up, passing the course remains a necessity. Don't hesitate—reach out to StudyWello's subject experts. We'll support your daily coursework and help you achieve A or B grades.
+                                Lacking interest in a subject and struggling to complete the course can be discouraging. Though you may feel like giving up, passing the course remains a necessity. Don't hesitate—reach out to StudyHelpers's subject experts. We'll support your daily coursework and help you achieve A or B grades.
                             </p>
                         </div>
 
@@ -25,7 +25,7 @@ const WhyChooseUsForHelpWithClass = () => {
                             <img className='w-12' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/no-stopping_1_6.png?v=1713363489" alt="" />
                             <h3 className="mt-2 text-xl">Time Management in Online Learning</h3>
                             <p className="mt-2 text-gray-700 text-sm leading-normal">
-                                Effectively understanding complex topics demands consistent study time. Online courses often involve frequent assignments to reinforce learning, but managing them alongside a busy schedule can be challenging. StudyWello offers efficient solutions to help you stay on track, ensuring you meet your academic goals without feeling overwhelmed.
+                                Effectively understanding complex topics demands consistent study time. Online courses often involve frequent assignments to reinforce learning, but managing them alongside a busy schedule can be challenging. StudyHelpers offers efficient solutions to help you stay on track, ensuring you meet your academic goals without feeling overwhelmed.
 
                             </p>
                         </div>
@@ -34,7 +34,7 @@ const WhyChooseUsForHelpWithClass = () => {
                             <img className='w-12' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/no-stopping_1_8.png?v=1713363489" alt="" />
                             <h3 className="mt-2 text-xl">Feeling the Pressure of Deadlines?</h3>
                             <p className="mt-2 text-gray-700 text-sm leading-normal">
-                                Approaching deadlines can be stressful, especially when juggling multiple commitments. Online courses frequently assign tasks that must be completed on time for maintaining good grades. At StudyWello, we provide dedicated support with assignments, helping you meet deadlines confidently and without the added anxiety.
+                                Approaching deadlines can be stressful, especially when juggling multiple commitments. Online courses frequently assign tasks that must be completed on time for maintaining good grades. At StudyHelpers, we provide dedicated support with assignments, helping you meet deadlines confidently and without the added anxiety.
 
                             </p>
                         </div>
@@ -43,7 +43,7 @@ const WhyChooseUsForHelpWithClass = () => {
                             <img className='w-12' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/no-stopping_1_7.png?v=1713363488" alt="" />
                             <h3 className="mt-2 text-xl">Balancing Work and Studies</h3>
                             <p className="mt-2 text-gray-700 text-sm leading-normal">
-                                If you're enrolled in an online course while working, balancing both can be demanding. Limited time for thorough study can impact your performance. StudyWello's flexible support helps you manage your academic workload alongside professional responsibilities, making it easier to achieve success in both areas.
+                                If you're enrolled in an online course while working, balancing both can be demanding. Limited time for thorough study can impact your performance. StudyHelpers's flexible support helps you manage your academic workload alongside professional responsibilities, making it easier to achieve success in both areas.
                             </p>
                         </div>
                     </div>

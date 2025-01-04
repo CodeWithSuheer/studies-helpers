@@ -1,11 +1,15 @@
 import { useEffect, useRef, useState } from "react";
 import { FaPhoneAlt } from "react-icons/fa";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./components.css";
 
+const links = [
+  { to: "/samples", label: "Samples" },
+  { to: "/about", label: "About Us" },
+  { to: "/contact", label: "Contact Us" },
+];
+
 const Header = () => {
-  const [state, setState] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
   const [responsiveMenu, setResponsiveMenu] = useState();
   const [isDropDownOpen, setIsDropDownOpen] = useState(false);
   const dropdownRef = useRef(null);
@@ -74,8 +78,8 @@ const Header = () => {
                 src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/aaa.png?v=1713875658"
                 alt="logo"
               />
-              <h2 className="poppins text-gray-800 dark:text-gray-200 text-xl font-semibold tracking-wide">
-                StudyWello
+              <h2 className="poppins text-gray-800 dark:text-gray-200 text-xl font-semibold">
+                StudyHelpers
               </h2>
             </Link>
 
@@ -134,7 +138,7 @@ const Header = () => {
                 <div className="dropdown relative">
                   <button
                     onClick={() => setIsDropDownOpen(!isDropDownOpen)}
-                    className="text-md font-medium tracking-wide text-gray-700 rounded-xl"
+                    className="text-md font-medium tracking-wide text-gray-700 hover:text-purple-700 rounded-xl"
                   >
                     <span className="poppins flex items-center font-medium text-[0.95rem] lg:text-[1.05rem]">
                       Services
@@ -178,73 +182,7 @@ const Header = () => {
                       onMouseEnter={() => setIsDropDownOpen(true)}
                       onMouseLeave={() => setIsDropDownOpen(false)}
                     >
-                      {/* {currentPath !== "/do-my-class" ? (
-                        <Link
-                          to="/online-classes"
-                          onClick={handleLinkClick}
-                          className="block px-4 py-3 w-full text-left text-sm text-gray-800 font-medium capitalize transition-colors duration-300 transform hover:bg-gray-100"
-                        >
-                          Online Classes
-                        </Link>
-                      ) : (
-                        <Link
-                          to="/do-my-class"
-                          onClick={handleLinkClick}
-                          className="block px-4 py-3 w-full text-left text-sm text-gray-800 font-medium capitalize transition-colors duration-300 transform hover:bg-gray-100"
-                        >
-                          Do My Class
-                        </Link>
-                      )} */}
-
-                      {/* <Link
-                        to="/do-my-class"
-                        onClick={handleLinkClick}
-                        className="block px-4 py-3 w-full text-left text-sm text-gray-800 font-medium capitalize transition-colors duration-300 transform hover:bg-gray-100"
-                      >
-                        Do My Class
-                      </Link> */}
-
-                      {/* <hr className="border-gray-200" /> */}
-
-                      {/* {currentPath !== "/exams-help" ? (
-                        <Link
-                          to="/exams"
-                          onClick={handleLinkClick}
-                          className="block px-4 py-3 w-full text-left text-sm text-gray-800 font-medium capitalize transition-colors duration-300 transform hover:bg-gray-100"
-                        >
-                          Exams
-                        </Link>
-                      ) : (
-                        <Link
-                          to="/exams-help"
-                          onClick={handleLinkClick}
-                          className="block px-4 py-3 w-full text-left text-sm text-gray-800 font-medium capitalize transition-colors duration-300 transform hover:bg-gray-100"
-                        >
-                          Exams Help
-                        </Link>
-                      )} */}
-
                       <Link
-                        to="/online-classes"
-                        onClick={handleLinkClick}
-                        className="block px-4 py-3 w-full text-left text-sm text-gray-800 font-medium capitalize transition-colors duration-300 transform hover:bg-gray-100"
-                      >
-                        Online Classes
-                      </Link>
-
-                      <hr className="border-gray-200" />
-                      <Link
-                        to="/exams-help"
-                        onClick={handleLinkClick}
-                        className="block px-4 py-3 w-full text-left text-sm text-gray-800 font-medium capitalize transition-colors duration-300 transform hover:bg-gray-100"
-                      >
-                        Exams Help
-                      </Link>
-
-                      <hr className="border-gray-200" />
-
-
-                      {/* <Link
                         to="/help-with-class"
                         onClick={handleLinkClick}
                         className="block px-4 py-3 w-full text-left text-sm text-gray-800 font-medium capitalize transition-colors duration-300 transform hover:bg-gray-100"
@@ -262,7 +200,7 @@ const Header = () => {
                         Help With Exam
                       </Link>
 
-                      <hr className="border-gray-200" /> */}
+                      <hr className="border-gray-200" />
 
                       <Link
                         to="/assignments"
@@ -271,53 +209,26 @@ const Header = () => {
                       >
                         Assignments
                       </Link>
-
-                      {/* <Link
-                        to="/do-my-class"
-                        onClick={handleLinkClick}
-                        className="block px-4 py-3 w-full text-left text-sm text-gray-800 font-medium capitalize transition-colors duration-300 transform hover:bg-gray-100"
-                      >
-                        Do My Class
-                      </Link> */}
                     </div>
                   )}
                 </div>
               </li>
 
-              <li className="poppins text-gray-800 hover:text-[#1A73E8]">
-                <Link
-                  to="/samples"
-                  onClick={handleLinkClick}
-                  className="font-medium text-[0.9rem] lg:text-[1.05rem]"
-                >
-                  Samples
-                </Link>
-              </li>
-
-              <li className="poppins text-gray-800 hover:text-[#1A73E8]">
-                <Link
-                  to="/about"
-                  onClick={handleLinkClick}
-                  className="font-medium text-[0.9rem] lg:text-[1.05rem]"
-                >
-                  About Us
-                </Link>
-              </li>
-
-              <li className="poppins text-gray-800 hover:text-[#1A73E8]">
-                <Link
-                  to="/contact"
-                  onClick={handleLinkClick}
-                  className="font-medium text-[0.9rem] lg:text-[1.05rem]"
-                >
-                  Contact Us
-                </Link>
-              </li>
+              {links.map((link, index) => (
+                <li key={index} className="poppins text-gray-800 hover:text-purple-700">
+                  <Link
+                    to={link.to}
+                    onClick={handleLinkClick}
+                    className="font-medium text-[0.9rem] lg:text-[1.05rem]"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
 
               {isMobile && (
                 <li className="poppins text-gray-800 hover:text-[#1A73E8]">
-                  <a
-                    href="tel:+1-716-374-9747"
+                  <a href="tel:+1-716-374-9747"
                     className="font-medium text-[0.9rem] lg:text-[1.05rem]"
                   >
                     <span className="">+1 (716) 374-9747</span>
@@ -331,17 +242,16 @@ const Header = () => {
           <div className="hidden md:inline-block">
             <a
               href="tel:+1-716-374-9747"
-              className="min-w-48 h-12 flex items-center text-white border border-[#1A73E8] bg-[#1A73E8] rounded-[2rem] shadow cursor-pointer"
+              className="min-w-48 h-12 flex items-center text-white border border-button/25 bg-button rounded-[2rem] shadow cursor-pointer"
             >
               <span className="bg-white h-full w-11 mr-2 flex justify-center items-center rounded-full">
-                <FaPhoneAlt size={17} className="text-indigo-600" />
+                <FaPhoneAlt size={17} className="text-button" />
               </span>
               <span className="">+1 (716) 374-9747</span>
             </a>
           </div>
         </div>
       </nav>
-      {/* )} */}
     </>
   );
 };

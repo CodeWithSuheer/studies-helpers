@@ -47,7 +47,7 @@ const Exams = () => {
               <p className="mb-3 sm:mb-4 text-md sm:text-md w-full sm:max-w-lg  font-normal">
                 Focus on learning, not stressing. Get the grades you deserve
                 without the hassle. Don't let test anxiety hold you back. Let
-                Studywello help you achieve your academic goals.
+                StudyHelpers help you achieve your academic goals.
               </p>
 
               <div className="button mt-4">
@@ -96,13 +96,13 @@ const Exams = () => {
               Conquer Your Online Exams with Confidence
             </h1>
             <p className="mb-6 leading-relaxed">
-              Taking online tests can be stressful, but with Studywello's
+              Taking online tests can be stressful, but with StudyHelpers's
               expert assistance, you can approach them with confidence. Our team
               of experienced test-takers will handle your exams with the utmost
               professionalism and discretion, ensuring you achieve the grades
               you deserve.We understand the challenges of online testing,
               including technical difficulties, time constraints, and the
-              temptation to cheat. With Studywello, you can rest assured that
+              temptation to cheat. With StudyHelpers, you can rest assured that
               your online tests are in good hands. Contact us today to learn
               more about our services and how we can help you achieve academic
               success.
@@ -138,7 +138,7 @@ const Exams = () => {
               <p className="mt-2 text-gray-700 text-sm leading-normal">
                 Juggling work, family, and online coursework can be a real
                 challenge. Many students find themselves struggling to carve out
-                dedicated study time. At Studywello, we understand the
+                dedicated study time. At StudyHelpers, we understand the
                 pressures faced by busy learners. We offer a variety of
                 resources and support services to help you succeed in your
                 online program, including time management workshops and focus
@@ -158,7 +158,7 @@ const Exams = () => {
               <p className="mt-2 text-gray-700 text-sm leading-normal">
                 Feeling unprepared or anxious before an online exam is a common
                 experience. However, letting those anxieties take hold can
-                hinder your performance. Studywello is here to help you
+                hinder your performance. StudyHelpers is here to help you
                 approach exams with confidence. We offer personalized study
                 plans, practice exams and quizzes, and test-taking skills
                 workshops.
@@ -177,7 +177,7 @@ const Exams = () => {
               <p className="mt-2 text-gray-700 text-sm leading-normal">
                 Exams can sneak up on you, especially in online programs. If you
                 find yourself feeling behind or unprepared, don't panic!
-                Studywello can help you get back on track. We offer a range of
+                StudyHelpers can help you get back on track. We offer a range of
                 resources to help you maximize your understanding of the course
                 material, including personalized study plans and targeted
                 practice exercises.
@@ -196,7 +196,7 @@ const Exams = () => {
               <p className="mt-2 text-gray-700 text-sm leading-normal">
                 Exams play a crucial role in your online program's success.
                 Feeling anxious about your ability to perform well is
-                understandable. Studywello can help you develop the skills and
+                understandable. StudyHelpers can help you develop the skills and
                 strategies you need to excel on exams. Our services include
                 personalized study plans, practice tests, and test-taking skills
                 workshops.

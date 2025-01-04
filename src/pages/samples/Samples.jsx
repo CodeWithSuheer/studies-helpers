@@ -10,7 +10,7 @@ const Samples = () => {
         <title>Samples | Online Help with Money Back Guarantee</title>
       </Helmet>
 
-      <section className="sample pt-20">
+      <section className="samples_backgroundImage pt-20">
         <div className="py-12 sm:py-20 sample_cont px-2.5 flex justify-center items-center flex-col">
           <h2 className="mb-2 text-white text-2xl sm:text-4xl font-semibold text-center max-w-xl">
             Samples

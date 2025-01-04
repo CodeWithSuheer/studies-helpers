@@ -26,15 +26,15 @@ const FaqAssignment = () => {
     const faqs = [
         {
             question: "Can You Assist Me with My Assignment?",
-            answer: "Absolutely! Our team of skilled writers at StudyWello is ready to help you with your assignments. Simply place an order with us, and we'll deliver high-quality, well-researched work tailored to your specific needs."
+            answer: "Absolutely! Our team of skilled writers at StudyHelpers is ready to help you with your assignments. Simply place an order with us, and we'll deliver high-quality, well-researched work tailored to your specific needs."
         },
         {
             question: "Can You Help Me with My Assignment Confidentially?",
-            answer: "Certainly! At StudyWello, your privacy is our top priority. We ensure that all your personal information and assignment details are kept strictly confidential, providing you with a secure and discreet service."
+            answer: "Certainly! At StudyHelpers, your privacy is our top priority. We ensure that all your personal information and assignment details are kept strictly confidential, providing you with a secure and discreet service."
         },
         {
             question: "How Can I Get Assistance with My Assignment?",
-            answer: "Getting help is easy. Visit StudyWello's website, fill out our order form with your assignment details, and our team will promptly connect with you to provide the support you need to succeed."
+            answer: "Getting help is easy. Visit StudyHelpers's website, fill out our order form with your assignment details, and our team will promptly connect with you to provide the support you need to succeed."
         },
         {
             question: "What Guarantees Do You Provide for Assignment Assistance?",
@@ -42,11 +42,11 @@ const FaqAssignment = () => {
         },
         {
             question: "How Can I Pay for Assignment Assistance?",
-            answer: "Paying for your assignment support is hassle-free with StudyWello. After placing your order, you can securely make the payment using our trusted and safe payment methods, including credit cards, PayPal, and more."
+            answer: "Paying for your assignment support is hassle-free with StudyHelpers. After placing your order, you can securely make the payment using our trusted and safe payment methods, including credit cards, PayPal, and more."
         },
         {
             question: "Do You Offer Online Assignment Help for All Subjects?",
-            answer: "Yes! StudyWello has experts in a wide range of subjects. No matter your field of study, our specialists are equipped to assist you with your assignments, ensuring comprehensive and accurate support across disciplines like business, nursing, engineering, humanities, and more."
+            answer: "Yes! StudyHelpers has experts in a wide range of subjects. No matter your field of study, our specialists are equipped to assist you with your assignments, ensuring comprehensive and accurate support across disciplines like business, nursing, engineering, humanities, and more."
         },
         {
             question: "What If I'm Not Satisfied with the Assignment Help?",
@@ -54,11 +54,11 @@ const FaqAssignment = () => {
         },
         {
             question: "Can I communicate with the expert working on my assignment?",
-            answer: "Yes! At StudyWello, we encourage open communication. You can connect with your assigned expert through our secure messaging system to discuss specific requirements, share additional resources, or ask for clarifications—all in real time."
+            answer: "Yes! At StudyHelpers, we encourage open communication. You can connect with your assigned expert through our secure messaging system to discuss specific requirements, share additional resources, or ask for clarifications—all in real time."
         },
         {
-            question: "How does StudyWello handle plagiarism in assignments?",
-            answer: "Originality is a top priority at StudyWello. Our rigorous quality control process includes thorough research, careful referencing, and advanced plagiarism detection tools to guarantee that every submission is unique and adheres to strict academic standards."
+            question: "How does StudyHelpers handle plagiarism in assignments?",
+            answer: "Originality is a top priority at StudyHelpers. Our rigorous quality control process includes thorough research, careful referencing, and advanced plagiarism detection tools to guarantee that every submission is unique and adheres to strict academic standards."
         },
     ];
 

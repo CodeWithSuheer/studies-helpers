@@ -1,6 +1,5 @@
 import { Helmet } from "react-helmet";
-import { useEffect, useState } from "react";
-
+import { useState } from "react";
 import "./Home.css";
 
 // Local components
@@ -38,7 +37,7 @@ const HomePage = () => {
     <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 16 16"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m2.75 8.75l3.5 3.5l7-7.5" /></svg>
   )
 
-  const studyWelloData = [
+  const StudyHelpersData = [
     "50+ Verified Subject Specialists",
     "98% A/B Grade Success Rate",
     "24/7 Dedicated Assistance",
@@ -50,7 +49,7 @@ const HomePage = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-          Study Wello: Academic Writing Services | Online Help with Money Back
+          Study Helpers: Academic Writing Services | Online Help with Money Back
           Guarantee
         </title>
       </Helmet>
@@ -66,14 +65,14 @@ const HomePage = () => {
                 Your Trusted Academic Partner for Exams, Assignments & Online Classes
               </h2>
               {/* <p className="mb-3 sm:text-md md:text-md xl:text-lg font-normal">
-                Overwhelmed by coursework? Looking to excel in complex subjects? StudyWello connects you with seasoned academic professionals who provide personalized guidance, helping you learn more efficiently, gain confidence, and achieve better results.
+                Overwhelmed by coursework? Looking to excel in complex subjects? StudyHelpers connects you with seasoned academic professionals who provide personalized guidance, helping you learn more efficiently, gain confidence, and achieve better results.
               </p> */}
 
               {/* <button onClick={() => setIsOpen(true)}>
                   Open Modal
                 </button> */}
 
-              {studyWelloData?.map((data, index) => (
+              {StudyHelpersData?.map((data, index) => (
                 <div key={index} className="flex gap-x-2 sm:gap-x-3 justify-start items-center">
                   <span className="icon text-green-500">
                     {tick}
@@ -104,7 +103,7 @@ const HomePage = () => {
       </section>
 
       {/* --------------- TRUST SECTION ---------------  */}
-      <section className="w-full bg-[#1A73E8] px-5 sm:px-3 py-8 mb-5">
+      <section className="w-full bg-surface px-5 sm:px-3 py-8 mb-5">
         <div className="max-w-5xl mx-auto grid sm:place-items-center grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-4">
           {/* BOX 1 */}
           <div className="box flex items-center gap-2">
@@ -176,7 +175,7 @@ const HomePage = () => {
       {/* --------------- CTA SECTION ---------------  */}
       <CtaOneV2
         mainHeading="Eliminate Grade Stress - Invest in Expert Academic Support Today"
-        subHeading="Partner with StudyWello achieve top grades with professional guidance. A small investment for significant academic success."
+        subHeading="Partner with StudyHelpers achieve top grades with professional guidance. A small investment for significant academic success."
         buttonText="Get Expert Support Now"
       />
 

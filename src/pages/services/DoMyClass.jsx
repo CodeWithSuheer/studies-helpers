@@ -95,7 +95,7 @@ const DoMyClass = () => {
                   className="flex text-nowrap w-32 justify-center shadow-sm border border-gray-300 gap-x-1 items-center bg-white text-black font-medium rounded-md text-sm px-5 py-2.5"><IoChatbubbleSharp className='text-blue-500' size={22} /> Chat Now</button>
 
                 <a
-                  href="mailto:support@Studywello.com"
+                  href="mailto:support@StudyHelpers.com"
                   target="_blank"
                   className="flex text-nowrap w-32 justify-center shadow-sm border border-gray-300 gap-x-1 items-center bg-white text-black font-medium rounded-md text-sm px-5 py-2.5"><MdEmail className='text-red-500' size={22} /> Email Us</a>
               </div>
@@ -131,7 +131,7 @@ const DoMyClass = () => {
               Struggling to Keep Up with Online Classes? Let Our Expert Team Handle It for You!
             </h1>
             <p className="mb-6 leading-relaxed">
-              Managing online coursework can be overwhelming and time-consuming, but you don't have to do it alone. With StudyWello, you gain access to over 50+ top-rated, degreed professionals who are ready to help you succeed. Our team specializes in delivering high-quality, plagiarism-free work tailored to meet strict academic standards. Say goodbye to the stress of looming deadlines and tough assignments, and hello to expert assistance that ensures top grades and peace of mind. We're here to handle your classes with precision and care, so you can focus on what matters most.
+              Managing online coursework can be overwhelming and time-consuming, but you don't have to do it alone. With StudyHelpers, you gain access to over 50+ top-rated, degreed professionals who are ready to help you succeed. Our team specializes in delivering high-quality, plagiarism-free work tailored to meet strict academic standards. Say goodbye to the stress of looming deadlines and tough assignments, and hello to expert assistance that ensures top grades and peace of mind. We're here to handle your classes with precision and care, so you can focus on what matters most.
             </p>
             <div className="flex justify-start">
               <Button text="Get Your Free Quote Now!" />

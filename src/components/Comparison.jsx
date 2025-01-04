@@ -22,7 +22,7 @@ const Icon = ({ name }) => {
     return icons[name]
 }
 
-const studyWelloData = [
+const StudyHelpersData = [
     { text: "Original, Plagiarism-Free Work", icon: "success" },
     { text: "Confidentiality & Security", icon: "Security" },
     { text: "Quality Assurance", icon: "support" },
@@ -47,7 +47,7 @@ const Comparison = ({
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    {studyWelloData.map((item, index) => (
+                    {StudyHelpersData.map((item, index) => (
                         <div key={index} className="bg-white rounded-lg shadow-md p-6 flex items-center space-x-4">
                             <div className="flex-shrink-0">
                                 <div className="bg-blue-100 rounded-full p-3">

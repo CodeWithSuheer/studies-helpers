@@ -18,7 +18,7 @@ const WhyChooseUs = () => {
                             <h3 className="mt-2 text-xl">Least Interest In Studies</h3>
                             <p className="mt-2 text-gray-700 text-sm leading-normal">
                                 Feeling no interest in a particular subject, you are struggling to complete the course. Despite your desire to give up, you are obligated to pass the course. Do not beat the bush and make a query, “Take my online class.”
-                                Studywello's subject experts will not only complete your daily class tasks for you but will also help you achieve A or B grades.
+                                StudyHelpers's subject experts will not only complete your daily class tasks for you but will also help you achieve A or B grades.
                             </p>
                         </div>
 
@@ -26,7 +26,7 @@ const WhyChooseUs = () => {
                             <img className='w-12' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/no-stopping_1_6.png?v=1713363489" alt="" />
                             <h3 className="mt-2 text-xl">Time Management in Online Learning</h3>
                             <p className="mt-2 text-gray-700 text-sm leading-normal">
-                                Effectively grasping complex topics requires dedicated study time. Online courses often involve frequent assignments to reinforce learning, but managing a busy schedule alongside coursework can be overwhelming. Studywello can help you navigate demanding online learning by offering efficient solutions.
+                                Effectively grasping complex topics requires dedicated study time. Online courses often involve frequent assignments to reinforce learning, but managing a busy schedule alongside coursework can be overwhelming. StudyHelpers can help you navigate demanding online learning by offering efficient solutions.
                             </p>
                         </div>
 
@@ -34,7 +34,7 @@ const WhyChooseUs = () => {
                             <img className='w-12' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/no-stopping_1_8.png?v=1713363489" alt="" />
                             <h3 className="mt-2 text-xl">Feeling the Pressure of Deadlines?</h3>
                             <p className="mt-2 text-gray-700 text-sm leading-normal">
-                                Approaching deadlines can cause anxiety, especially when juggling other commitments. Online courses often have regular assignments that require timely completion to maintain good grades. At Studywello, we can alleviate your stress by offering support with assignment completion, ensuring you meet deadlines with confidence.
+                                Approaching deadlines can cause anxiety, especially when juggling other commitments. Online courses often have regular assignments that require timely completion to maintain good grades. At StudyHelpers, we can alleviate your stress by offering support with assignment completion, ensuring you meet deadlines with confidence.
 
                             </p>
                         </div>
@@ -43,7 +43,7 @@ const WhyChooseUs = () => {
                             <img className='w-12' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/no-stopping_1_7.png?v=1713363488" alt="" />
                             <h3 className="mt-2 text-xl">Balancing Work and Studies</h3>
                             <p className="mt-2 text-gray-700 text-sm leading-normal">
-                                Enrolling in an online course while employed can be a balancing act.  Work commitments can leave limited time for in-depth learning. Studywello offers flexible support to help you manage your academic workload alongside your professional responsibilities.
+                                Enrolling in an online course while employed can be a balancing act.  Work commitments can leave limited time for in-depth learning. StudyHelpers offers flexible support to help you manage your academic workload alongside your professional responsibilities.
                             </p>
                         </div>
                     </div>

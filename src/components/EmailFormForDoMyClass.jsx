@@ -143,7 +143,7 @@ const EmailFormForDoMyClass = () => {
                             className="flex text-nowrap w-32 justify-center shadow-sm border border-gray-300 gap-x-1 items-center bg-white text-black font-medium rounded-md text-sm px-5 py-2.5"><IoChatbubbleSharp className='text-blue-500' size={22} /> Chat Now</button>
 
                         <a
-                            href="mailto:support@Studywello.com"
+                            href="mailto:support@StudyHelpers.com"
                             target="_blank"
                             className="flex text-nowrap w-32 justify-center shadow-sm border border-gray-300 gap-x-1 items-center bg-white text-black font-medium rounded-md text-sm px-5 py-2.5"><MdEmail className='text-red-500' size={22} /> Email Us</a>
                     </div>

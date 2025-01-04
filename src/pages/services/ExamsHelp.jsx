@@ -37,7 +37,7 @@ const ExamsHelp = () => {
     <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 16 16"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m2.75 8.75l3.5 3.5l7-7.5" /></svg>
   )
 
-  const studyWelloData = [
+  const StudyHelpersData = [
     "Professional Exam Takers",
     "Total Confidentiality",
     "Guaranted  Success",
@@ -67,7 +67,7 @@ const ExamsHelp = () => {
               </h1>
 
 
-              {studyWelloData?.map((data, index) => (
+              {StudyHelpersData?.map((data, index) => (
                 <div key={index} className="flex gap-x-2 sm:gap-x-3 justify-start items-center">
                   <span className="icon text-green-500">
                     {tick}
@@ -114,7 +114,7 @@ const ExamsHelp = () => {
               No More Exam Stress This Season - We're Here to Help!
             </h1>
             <p className="mb-6 leading-relaxed">
-              Exams can be overwhelming, but you don't have to face them alone. With StudyWello, get expert assistance from professionals across various subjects, ensuring top results with ease. Reach out, relax, and let us handle everything with complete confidentiality and around-the-clock support. Plus, our student-friendly rates mean quality help that won't break the bank.
+              Exams can be overwhelming, but you don't have to face them alone. With StudyHelpers, get expert assistance from professionals across various subjects, ensuring top results with ease. Reach out, relax, and let us handle everything with complete confidentiality and around-the-clock support. Plus, our student-friendly rates mean quality help that won't break the bank.
             </p>
             <div className="flex justify-start">
               <Button text="Click to Avail Discount" />

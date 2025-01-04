@@ -4,9 +4,9 @@ const PrivacyPolicy = () => {
         <>
             <section className="bg-[#ebecf5]">
                 <div className="max-w-5xl px-4 sm:px-6 pt-28 pb-12 mx-auto min-h-screen">
-                    <h2 className='poppin text-3xl lg:text-4xl font-bold tracking-wide'>Privacy Policy - Study Wello</h2>
+                    <h2 className='poppin text-3xl lg:text-4xl font-bold tracking-wide'>Privacy Policy - Study Helpers</h2>
 
-                    <p className="mb-4 mt-3">Studywello is committed to protecting the privacy of our users. This Privacy Policy describes how we collect, use, and disclose information we obtain from users of our website and services.</p>
+                    <p className="mb-4 mt-3">StudyHelpers is committed to protecting the privacy of our users. This Privacy Policy describes how we collect, use, and disclose information we obtain from users of our website and services.</p>
 
 
                     {/* FIRST DETAILS */}
@@ -68,7 +68,7 @@ const PrivacyPolicy = () => {
 
                     <h2 className="mt-6 text-2xl font-bold mb-2">Contact us</h2>
                     <p className="mb-4">If you have any questions about this Privacy Policy, please contact us at:
-                        Email: support@Studywello.com
+                        Email: support@StudyHelpers.com
                     </p>
 
                 </div>

@@ -12,7 +12,7 @@ const Footer = () => {
 
     return (
         <>
-            <footer className="w-full bg-[#ECECFB] text-black">
+            <footer className="w-full bg-[#e8e2f8] text-black">
                 <div className="max-w-7xl mx-auto">
                     {/* FOOTER UPPER PART  */}
                     <div className="pt-16 pb-14 px-4 md:px-10 grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-5">
@@ -20,10 +20,10 @@ const Footer = () => {
                         <div className="sm:col-span-2">
                             <h1 className="max-w-lg flex items-center text-xl font-semibold tracking-tight text-black xl:text-2xl">
                                 <img className='-ml-3 w-12' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/aaa.png?v=1713875658" alt="logo" />
-                                Study Wello
+                                Study Helpers
                             </h1>
                             <p className="max-w-md text-[1rem] mt-3">
-                                Study Wello is providing help to students as academic consultants, to resolve their queries, helping them by providing sufficient help in assignments and exams. There are a vast variety of subjects offered by Study Wello through experts.
+                                Study Helpers is providing help to students as academic consultants, to resolve their queries, helping them by providing sufficient help in assignments and exams. There are a vast variety of subjects offered by Study Helpers through experts.
                             </p>
                         </div>
 
@@ -41,7 +41,7 @@ const Footer = () => {
                                         <Link
                                             to={link.to}
                                             onClick={handleMoveToTop}
-                                            className="text-black hover:text-blue-600 transition-colors duration-300"
+                                            className="text-black hover:text-purple-600 transition-colors duration-300"
                                         >
                                             {link.label}
                                         </Link>
@@ -50,25 +50,22 @@ const Footer = () => {
                             </ul>
                         </div>
 
-                        {/* PRODUCT & CATEGORIES */}
+                        {/* Services */}
                         <div>
                             <p className="text-xl font-semibold text-black">
                                 Services
                             </p>
                             <ul className="mt-3 space-y-2">
                                 {[
-                                    // { label: "Do My Class", to: "/do-my-class" },
-                                    // { label: "Help With Class", to: "/help-with-class" },
-                                    // { label: "Help With Exam", to: "/help-with-exam" },
-                                    { label: "Online Classes", to: "/online-classes" },
-                                    { label: "Exams Help", to: "/exams-help" },
+                                    { label: "Help With Class", to: "/help-with-class" },
+                                    { label: "Help With Exam", to: "/help-with-exam" },
                                     { label: "Assignments", to: "/assignments" },
                                     { label: "Samples", to: "/samples" },
                                 ].map((link) => (
                                     <li key={link.to}>
                                         <Link
                                             to={link.to}
-                                            className="text-black hover:text-blue-600 transition-colors duration-300"
+                                            className="text-black hover:text-purple-600 transition-colors duration-300"
                                         >
                                             {link.label}
                                         </Link>
@@ -77,7 +74,7 @@ const Footer = () => {
                             </ul>
                         </div>
 
-                        {/* PRODUCT & CATEGORIES */}
+                        {/* Contact Info */}
                         <div>
                             <p className="text-xl font-semibold text-black">
                                 Contact Info
@@ -90,10 +87,10 @@ const Footer = () => {
 
                                 {/* SOCIAL LINKS */}
                                 <div className="links pt-2 flex items-center justify-start gap-2.5">
-                                    <a href="https://www.facebook.com/studywello" target="_blank" className=""><FaFacebookF className="text-white bg-blue-600 h-7 w-7 p-1.5 rounded-full" /></a>
-                                    <a href="#" className=""><FaInstagram className="text-white bg-blue-600 h-7 w-7 p-1.5 rounded-full" /></a>
-                                    <a href="#" className=""><FaLinkedinIn className="text-white bg-blue-600 h-7 w-7 p-1.5 rounded-full" /></a>
-                                    <a href="#" className=""><FaTiktok className="text-white bg-blue-600 h-7 w-7 p-1.5 rounded-full" /></a>
+                                    <a href="https://www.facebook.com/StudyHelpers" target="_blank" className=""><FaFacebookF className="text-white bg-button h-7 w-7 p-1.5 rounded-full" /></a>
+                                    <a href="#" className=""><FaInstagram className="text-white bg-button h-7 w-7 p-1.5 rounded-full" /></a>
+                                    <a href="#" className=""><FaLinkedinIn className="text-white bg-button h-7 w-7 p-1.5 rounded-full" /></a>
+                                    <a href="#" className=""><FaTiktok className="text-white bg-button h-7 w-7 p-1.5 rounded-full" /></a>
                                 </div>
 
                                 {/* PAYMENT METHOLDS */}
@@ -112,8 +109,8 @@ const Footer = () => {
 
 
                 {/* FOOTER BOTTOM PART  */}
-                <div className="text-sm py-7 px-4 md:px-10 border-t bg-[#1A73E8] text-center text-white">
-                    <p>Copyrights © 2024 All Rights Reserved by Study Wello</p>
+                <div className="text-sm py-7 px-4 md:px-10 border-t bg-surface text-center text-white">
+                    <p>Copyrights © 2024 All Rights Reserved by Study Helpers</p>
                 </div>
             </footer>
         </>

@@ -13,7 +13,7 @@ const SeoContentBlock = () => {
                         <h2 className='mb-3 text-start text-2xl sm:text-2xl font-semibold'>Pay Someone to Take My Online Class for Me</h2>
 
                         <p className='text-md'>
-                            Need help keeping up with your online classes? StudyWello is here to handle everything—assignments, quizzes, exams, and full courses—so you can focus on what matters most. Trusted by thousands for reliable online class support.
+                            Need help keeping up with your online classes? StudyHelpers is here to handle everything—assignments, quizzes, exams, and full courses—so you can focus on what matters most. Trusted by thousands for reliable online class support.
                         </p>
                     </div>
 
@@ -108,7 +108,7 @@ const SeoContentBlock = () => {
 
                     <div className="border border-blue-400 bg-blue-100 rounded-lg px-6 py-7 text-gray-700 mt-4">
                         <h2 className='mb-3 text-start text-2xl sm:text-2xl font-semibold'>
-                            Why Choose StudyWello for Online Class Help?
+                            Why Choose StudyHelpers for Online Class Help?
                         </h2>
 
                         <ul className='pl-5'>

@@ -97,7 +97,7 @@ const Assignments = () => {
                 Stressed About Assignments? Let Our Experts Lighten Your Load!
               </h2>
               <p className="mb-3 sm:mb-4 text-md sm:text-md w-full sm:max-w-lg  font-normal">
-                Managing multiple assignments can feel overwhelming—tight deadlines, complex instructions, and high standards can all add up to stress. At StudyWello, we're here to help turn that stress into confidence. Our top-rated, degreed professionals provide personalized support to ensure every assignment meets your academic goals.
+                Managing multiple assignments can feel overwhelming—tight deadlines, complex instructions, and high standards can all add up to stress. At StudyHelpers, we're here to help turn that stress into confidence. Our top-rated, degreed professionals provide personalized support to ensure every assignment meets your academic goals.
               </p>
 
               <div className="button mt-4">
@@ -141,7 +141,7 @@ const Assignments = () => {
               Choose Our Experienced Assignment Experts
             </h1>
             <p className="mb-3 leading-relaxed">
-              At StudyWello, we know that quality writing makes all the difference. Our team of seasoned professionals excels in crafting well-researched, clearly written, and perfectly formatted assignments—always delivered on time. Trust our experts to elevate your grades and ease your academic workload.
+              At StudyHelpers, we know that quality writing makes all the difference. Our team of seasoned professionals excels in crafting well-researched, clearly written, and perfectly formatted assignments—always delivered on time. Trust our experts to elevate your grades and ease your academic workload.
             </p>
             <p className="mb-4 leading-relaxed">
               Ready to Get Started?
