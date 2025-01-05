@@ -56,9 +56,9 @@ const HelpWithExams = () => {
 
   const StudyHelpersData = [
     "Professional Exam Helpers",
-    "Total Confidentiality",
+    "Complete Confidentiality",
     "Affordable & Flexible",
-    "24/7 Support",
+    "24/7 Assistance",
     "Fast Turnaround",
   ]
 
@@ -79,7 +79,7 @@ const HelpWithExams = () => {
                 No More Exam Stress
               </h1>
               <h1 className="mb-5 font-bold max-w-lg text-3xl md:text-4xl text-white">
-                Secure Top Grades with Expert's Online Exam Help
+                Secure Top Grades with Our Expert Online Exam Support
               </h1>
 
 
@@ -123,17 +123,17 @@ const HelpWithExams = () => {
           </div>
 
           <div className="lg:flex-grow px-5 md:px-5 md:w-1/2 md:pl-6 lg:pl-14 xl:pl-12 flex flex-col text-left">
-            <h1 className="mb-3 font-semibold max-w-lg text-md text-blue-500 tracking-wide">
+            <h1 className="mb-3 font-semibold max-w-lg text-md text-purple-800 tracking-wide">
               ONLINE EXAM HELP
             </h1>
             <h1 className="mb-5 font-bold max-w-lg text-3xl md:text-4xl text-[#272727]">
-              No More Exam Stress This Season - We're Here to Help!
+              No More Exam Worries We're Here for You!
             </h1>
             <p className="mb-6 leading-relaxed">
-              Exams can be overwhelming, but you don't have to face them alone. With StudyHelpers, get expert guidance and support from professionals across various subjects, ensuring top results with ease. Reach out, relax, and let us provide you with tailored assistance with complete confidentiality and around-the-clock support. Plus, our student-friendly rates mean quality help that won't break the bank.
+              Exams can be daunting, but you don’t have to face them solo. Studies Helpers connects you with expert guidance and subject-specific support to help you earn top marks with ease. Kick back and let us tailor an approach just for you, complete with total confidentiality and around-the-clock assistance. Plus, our student-friendly pricing makes sure you get quality help without breaking the bank.
             </p>
             <div className="flex justify-start">
-              <Button text="Click to Avail Discount" />
+              <Button text="Click to Enjoy a Discount" />
             </div>
           </div>
         </div>
@@ -170,12 +170,13 @@ const HelpWithExams = () => {
       </section>
 
       {/* --------------- CTAV2 ---------------  */}
-      <CtaOneV2Exams desc="Hiring experts to assist with your online Exam is a smart investment for achieving good grades." />
+      <CtaOneV2Exams desc="Hiring qualified specialists to support your online exam is a smart way to aim for higher grades." />
 
       {/* --------------- COMPARISON ---------------  */}
       <Comparison
-        mainHeading="Why You Should Hire Us To Support Your Online Exams"
-        text="Book My Exam Help Now"
+        mainHeading="Why You Should Hire Us to Support Your Online Exams"
+        subHeading="We meet the academic standards of any college or university, ensuring our services align with your course requirements."
+        buttonText="Book My Exam Help Now"
       />
 
       {/* --------------- SUBJECT DETAILS ---------------  */}

@@ -27,7 +27,7 @@ const Process = () => {
                                 {/* HEADER */}
                                 <summary className="flex px-3 py-3 cursor-pointer items-center justify-between gap-1.5 text-gray-900">
                                     <h2 className="text-lg font-medium flex items-center pl-3">
-                                        <span><img className='size-10 mr-3' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/file_1_2.png?v=1713359000" alt="" /></span>
+                                        <span><img className='size-10 mr-3' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/docs.png?v=1736098130" alt="" /></span>
                                         Provide Order Details
                                     </h2>
 
@@ -46,7 +46,7 @@ const Process = () => {
                                 {/* HEADER */}
                                 <summary className="flex px-3 py-3 cursor-pointer items-center justify-between gap-1.5 text-gray-900">
                                     <h2 className="text-lg font-medium flex items-center pl-3">
-                                        <span><img className='size-10 mr-3' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/file_1.png?v=1713358897" alt="" /></span>
+                                        <span><img className='size-10 mr-3' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/electricity-bill.png?v=1736098130" alt="" /></span>
                                         Get a Price Quote
                                     </h2>
 
@@ -65,7 +65,7 @@ const Process = () => {
                                 {/* HEADER */}
                                 <summary className="flex px-3 py-3 cursor-pointer items-center justify-between gap-1.5 text-gray-900">
                                     <h2 className="text-lg font-medium flex items-center pl-3">
-                                        <span><img className='size-10 mr-3' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/file_3.png?v=1713358898" alt="" /></span>
+                                        <span><img className='size-10 mr-3' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/cash-payment.png?v=1736098130" alt="" /></span>
                                         Make Payment
                                     </h2>
 
@@ -84,7 +84,7 @@ const Process = () => {
                                 {/* HEADER */}
                                 <summary className="flex px-3 py-3 cursor-pointer items-center justify-between gap-1.5 text-gray-900">
                                     <h2 className="text-lg font-medium flex items-center pl-3">
-                                        <span><img className='size-10 mr-3' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/file_1_1.png?v=1713358897" alt="" /></span>
+                                        <span><img className='size-10 mr-3' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/checked.png?v=1736098130" alt="" /></span>
                                         Get Your Work Done
                                     </h2>
 

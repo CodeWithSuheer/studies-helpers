@@ -42,6 +42,12 @@ const HelpWithClassServices = () => {
                     <h2 className="mb-3 font-bold text-3xl md:text-4xl w-[95%] sm:w-[100%] mx-auto text-[#272727] text-center">Further Academic Services</h2>
 
 
+                    <div className="mt-7 grid grid-cols-1 gap-5 lg:grid-cols-1 lg:gap-8 sm:px-10 px-4">
+                        <div className="service_card box_service_shadow border border-button/30 px-5 text-center py-12 rounded-2xl text-black hover:text-white bg-white transition-colors duration-300 hover:bg-surface">
+                            <h3 className="mb-3 font-normal text-xl">Your Ultimate Solution for Online Education Success</h3>
+                            <p className="text-2xl font-semibold">Get a Guaranteed A+ Grade with the Help of Our Expert Professionals</p>
+                        </div>
+                    </div>
                     {/* --------------- CONTENT ---------------  */}
                     <div className="mt-10 grid grid-cols-1 gap-5 lg:grid-cols-3 lg:gap-8 sm:px-10 px-4">
                         {services.map((service, index) => (

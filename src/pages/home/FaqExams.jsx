@@ -3,12 +3,12 @@ import React from 'react';
 const AccordionItem = ({ question, answer }) => (
     <details className="group [&_summary::-webkit-details-marker]:hidden">
         <summary
-            className="flex cursor-pointer items-center justify-between gap-1.5 border border-[#1A73E8] rounded-lg bg-white p-4 text-gray-900"
+            className="flex cursor-pointer items-center justify-between gap-1.5 border border-button rounded-lg bg-white p-4 text-gray-900"
             aria-expanded="false"
         >
             <h3 className="font-medium">{question}</h3>
             <svg
-                className="size-5 shrink-0 transition duration-300 group-open:-rotate-180 text-[#1A73E8]"
+                className="size-5 shrink-0 transition duration-300 group-open:-rotate-180 text-button"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -25,28 +25,28 @@ const AccordionItem = ({ question, answer }) => (
 const FaqExams = () => {
     const faqs = [
         {
-            question: "Is it safe and confidential to hire experts to assist with my online exam?",
-            answer: "Yes, absolutely. We prioritize your privacy and ensure complete confidentiality. Our platform uses secure methods to protect your data and identity. You can trust us to provide expert help without compromising your personal information."
+            question: "Is it safe and confidential to hire experts for my online exam?",
+            answer: "Absolutely. Your privacy is our priority, and we utilize secure measures to protect both your data and identity. You can rely on us for trustworthy support without compromising personal details."
         },
         {
-            question: "How do you guarantee high grades on my exam?",
-            answer: "We have a team of highly qualified experts across various subjects who specialize in online exams. Our professionals are selected based on their academic background and experience, allowing us to deliver top-notch results. We aim for A/B grades, and our success rate reflects our commitment to excellence."
+            question: "How do you ensure high grades on my exam?",
+            answer: "Our team features highly qualified experts across multiple fields, selected based on strong academic backgrounds and proven experience. With a focus on A/B grades, our track record underscores our dedication to superior results."
         },
         {
-            question: "What subjects or types of exams do you cover?",
-            answer: "We offer help across a wide range of subjects, including but not limited to mathematics, science, business, engineering, nursing, and humanities. Whether it's a quiz, midterm, or final exam, our experts are equipped to handle exams at all academic levels."
+            question: "Which subjects or exam types do you handle?",
+            answer: "We cover a wide scope, from math and science to business, engineering, nursing, and more. Whether it's a quiz, midterm, or final, our experts can assist at any academic level."
         },
         {
             question: "How does the process work once I book an exam with you?",
-            answer: "Once you place an order, we match you with a subject expert who will assist you during your exam. You'll receive updates, and we ensure your exam is handled on time with the best possible performance. Our support team is also available 24/7 for any questions or updates."
+            answer: "After you place an order, we pair you with a subject expert who will guide you. Expect timely updates, and rest assured your exam will be managed punctually for optimal results. Our support team is on standby 24/7 to address any questions."
         },
         {
-            question: "What happens if I don't achieve the desired grade?",
-            answer: "We are committed to delivering quality results. If the agreed-upon grade is not achieved, we offer a partial or full refund depending on the situation, as part of our satisfaction guarantee. Our goal is to provide risk-free exam support."
+            question: "What if I don't achieve the grade I want?",
+            answer: "Quality is our moral code. If the agreed-upon grade isn't reached, we offer a refund—partial or full, depending on the circumstances—under our satisfaction guarantee. We aim to provide exam help without risks."
         },
         {
-            question: "Can I communicate with the expert assisting with my exam?",
-            answer: "Yes, we allow direct communication with your assigned expert, if needed, to clarify any details or address specific concerns. This ensures a smooth experience and that all your requirements are fully understood."
+            question: "Can I talk directly with the expert handling my exam?",
+            answer: "Yes. Direct communication with your assigned specialist is available whenever necessary. This ensures clarity on requirements and addresses any specific concerns to guarantee a smooth experience."
         },
     ];
 

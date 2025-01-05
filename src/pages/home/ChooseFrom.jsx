@@ -3,6 +3,7 @@ import { FaDotCircle } from "react-icons/fa";
 import { LuMessagesSquare } from "react-icons/lu";
 import { FaArrowRightLong } from "react-icons/fa6";
 import Button from '../../components/Button';
+import image01 from  '../../assets/studyhelpers-assets/images/S4.png'
 
 const ChooseFrom = () => {
     return (
@@ -12,7 +13,7 @@ const ChooseFrom = () => {
 
                     {/* IMAGE */}
                     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                        <img className="object-cover object-center" alt="hero" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/a386ebb8-7e38-4d05-89f4-b0969b733140.png?v=1736078064" />
+                        <img className="object-cover object-center" alt="hero" src={image01} />
                     </div>
 
                     {/* CONTENT */}

@@ -55,7 +55,7 @@ const HomePage = () => {
       </Helmet>
 
       {/* --------------- HERO SECTION ---------------  */}
-      <section className="text-white onlineClass_backgroundImage mb-0 lg:mb-0">
+      <section className="text-white home_backgroundImage mb-0 lg:mb-0">
         <div className="max-w-7xl mx-auto md:px-10 pt-28 pb-10 flex justify-center items-center min-h-[95vh] relative z-10">
           <div className="flex flex-col lg:flex-row justify-center items-center">
 
@@ -69,7 +69,7 @@ const HomePage = () => {
                   <span className="icon text-green-500">
                     {tick}
                   </span>
-                  <p className='text-sm sm:text-lg font-normal'>{data}</p>
+                  <p className='text-sm sm:text-lg font-semibold'>{data}</p>
                 </div>
               ))}
 
@@ -77,14 +77,6 @@ const HomePage = () => {
                 <Button text="Get a Free Quote Now " />
               </div>
             </div>
-
-
-            {/* <div className="content pt-0 sm:pt-14 lg:pt-8">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_72166_f8ee09d3-a74c-4a61-886e-610b0b8adb4a.png?v=1713266395"
-                  alt=""
-                />
-              </div> */}
 
             {/* EMAIL FORM */}
             <div className="lg:max-w-lg lg:w-1/2 w-full px-2 mt-10 lg:mt-0">
@@ -102,7 +94,7 @@ const HomePage = () => {
             <span className="w-10">
               <img
                 className="w-full p-1"
-                src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/100-percent_1.png?v=1713438051"
+                src={"https://cdn.shopify.com/s/files/1/0704/6378/2946/files/100-percent_1.png?v=1713438051"}
                 alt=""
               />
             </span>

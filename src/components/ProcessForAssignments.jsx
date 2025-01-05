@@ -27,11 +27,11 @@ const ProcessForAssignments = () => {
                                 {/* HEADER */}
                                 <summary className="flex px-3 py-3 cursor-pointer items-center justify-between gap-1.5 text-gray-900">
                                     <h2 className="text-lg font-medium flex items-center pl-3">
-                                        <span><img className='size-10 mr-3' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/file_1_2.png?v=1713359000" alt="" /></span>
+                                        <span><img className='size-10 mr-3' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/docs.png?v=1736098130" alt="" /></span>
                                         Step 1: Submit Your Requirements
                                     </h2>
 
-                                    <span className="ml-auto bg-purple-800 text-white p-2 rounded-full w-10 h-10 flex items-center justify-center">
+                                    <span className="ml-auto bg-button text-white p-2 rounded-full w-10 h-10 flex items-center justify-center">
                                         01
                                     </span>
                                 </summary>
@@ -46,11 +46,11 @@ const ProcessForAssignments = () => {
                                 {/* HEADER */}
                                 <summary className="flex px-3 py-3 cursor-pointer items-center justify-between gap-1.5 text-gray-900">
                                     <h2 className="text-lg font-medium flex items-center pl-3">
-                                        <span><img className='size-10 mr-3' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/file_1.png?v=1713358897" alt="" /></span>
+                                        <span><img className='size-10 mr-3' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/electricity-bill.png?v=1736098130" alt="" /></span>
                                         Step 2: Receive a Personalized Quote
                                     </h2>
 
-                                    <span className="ml-auto bg-purple-800 text-white p-2 rounded-full w-10 h-10 flex items-center justify-center">
+                                    <span className="ml-auto bg-button text-white p-2 rounded-full w-10 h-10 flex items-center justify-center">
                                         02
                                     </span>
                                 </summary>
@@ -65,11 +65,11 @@ const ProcessForAssignments = () => {
                                 {/* HEADER */}
                                 <summary className="flex px-3 py-3 cursor-pointer items-center justify-between gap-1.5 text-gray-900">
                                     <h2 className="text-lg font-medium flex items-center pl-3">
-                                        <span><img className='size-10 mr-3' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/file_3.png?v=1713358898" alt="" /></span>
+                                        <span><img className='size-10 mr-3' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/cash-payment.png?v=1736098130" alt="" /></span>
                                         Step 3: Expert in Action
                                     </h2>
 
-                                    <span className="ml-auto bg-purple-800 text-white p-2 rounded-full w-10 h-10 flex items-center justify-center">
+                                    <span className="ml-auto bg-button text-white p-2 rounded-full w-10 h-10 flex items-center justify-center">
                                         03
                                     </span>
                                 </summary>
@@ -84,11 +84,11 @@ const ProcessForAssignments = () => {
                                 {/* HEADER */}
                                 <summary className="flex px-3 py-3 cursor-pointer items-center justify-between gap-1.5 text-gray-900">
                                     <h2 className="text-lg font-medium flex items-center pl-3">
-                                        <span><img className='size-10 mr-3' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/file_1_1.png?v=1713358897" alt="" /></span>
+                                        <span><img className='size-10 mr-3' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/checked.png?v=1736098130" alt="" /></span>
                                         Step 4: Review & Request Revisions
                                     </h2>
 
-                                    <span className="ml-auto bg-purple-800 text-white p-2 rounded-full w-10 h-10 flex items-center justify-center">
+                                    <span className="ml-auto bg-button text-white p-2 rounded-full w-10 h-10 flex items-center justify-center">
                                         04
                                     </span>
                                 </summary>

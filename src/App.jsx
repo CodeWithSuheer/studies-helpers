@@ -47,7 +47,7 @@ function App() {
       <BrowserRouter>
         <ScrollToTop />
         <TawkMessengerReact
-          propertyId="6508863fb1aaa13b7a778a43"
+          propertyId="677ac9e049e2fd8dfe02db93"
           widgetId="default"
           ref={tawkMessengerRef}
           onLoad={onLoad}

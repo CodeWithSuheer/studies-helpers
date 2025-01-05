@@ -1,6 +1,9 @@
 .box_shadow {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+.box_service_shadow {
+    box-shadow: rgba(152, 110, 181, 0.24) 0px 3px 8px;
+}
 
 .gradient {
     background: rgb(255, 255, 255);
@@ -48,9 +51,9 @@
 
 
 .mainHeading {
-    font-size: 2.4rem;
+    font-size: 2.3rem;
     font-weight: 700;
-    line-height: 3.5rem;
+    line-height: 3.2rem;
     /* max-width: 37rem; */
 }
 
