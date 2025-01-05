@@ -27,23 +27,23 @@ const FaqClass = () => {
     const faqs = [
         {
             question: "Is it safe to pay someone to assist with my online class?",
-            answer: "Yes, it is safe when you choose a trusted and reputable service like StudyHelpers. We prioritize client confidentiality, utilize secure payment methods, and safeguard your identity and data. Our services adhere to strict privacy standards to ensure your peace of mind."
+            answer: "Yes. It's safe when you choose a reputable service like Studies Helpers . We safeguard client confidentiality, use secure payment methods, and protect your personal information. Our strict privacy standards ensure peace of mind."
         },
         {
             question: "How do you guarantee the quality of work?",
-            answer: "Our team is composed of over 50+ top-rated, degreed professionals with expertise in various subjects. We ensure high-quality, plagiarism-free submissions that meet academic standards. Our 98% A/B grade success rate reflects our commitment to delivering exceptional results."
+            answer: "Our team consists of over 50+ top-rated professionals with advanced degrees in various disciplines. They deliver high-quality, plagiarism-free work that meets academic expectations. Our 98% A/B grade record speaks to our dedication to excellence."
         },
         {
             question: "What subjects and courses do you cover?",
-            answer: "We offer support across a broad range of subjects, including but not limited to business, law, nursing, engineering, and computer science. No matter how specialized your course is, we have the right experts to assist you."
+            answer: "We support a wide array of subjects, from business and law to nursing, engineering, and computer science. Whatever your course level or specificity, we have specialists equipped to help you."
         },
         {
             question: "How does the process work after I place an order?",
-            answer: "Once you’ve placed your order, we connect you with a subject expert who will guide and support you through your online class. You’ll receive regular updates, and we ensure all tasks are completed on time. Our team is available 24/7 to answer questions and keep you informed about your progress."
+            answer: "Once you order, we assign a subject expert who will mentor you through your online class. Expect regular updates, punctual task completions, and 24/7 availability to answer any queries or offer progress insights."
         },
         {
-            question: "What happens if I don't get the grade I expected?",
-            answer: "We stand by our quality work. If the agreed-upon grade isn’t achieved, we provide a refund according to our policy, ensuring your investment remains protected. You can rely on us with full confidence."
+            question: "What if I don't get the grade I expected?",
+            answer: "We stand behind our commitment to quality. If the agreed-upon grade isn't achieved, we'll honor our refund policy—keeping your investment safe."
         },
     ];
 

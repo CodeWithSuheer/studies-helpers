@@ -23,7 +23,7 @@ const ExpertsAvailable = () => {
               />
             </div>
           ))}
-          <div className="relative w-10 h-10 bg-primary bg-[#1A73E8] rounded-full border-2 border-background flex items-center justify-center text-primary-foreground text-sm font-semibold">
+          <div className="relative w-10 h-10 bg-primary bg-button rounded-full border-2 border-background flex items-center justify-center text-primary-foreground text-sm font-semibold">
             +96
           </div>
         </div>

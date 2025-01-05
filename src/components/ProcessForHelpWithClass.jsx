@@ -1,21 +1,13 @@
 import React from 'react'
 
 const ProcessForHelpWithClass = () => {
-
-    const steps = [
-        { id: 2, text: 'Get a Price Quote', icon: 'file-text' },
-        { id: 3, text: 'Make Payment', icon: 'dollar-sign' },
-        { id: 4, text: 'Get Your Work Done', icon: 'check' }
-    ];
-
-
     return (
         <>
             <section className='bg-[#F4F8FE]'>
                 <div className="max-w-7xl mx-auto py-14">
                     {/* --------------- HEADER TEXT ---------------  */}
                     <h2 className="mb-3 font-bold text-3xl md:text-4xl w-[95%] sm:w-[100%] mx-auto text-[#272727] text-center">The Process We Follow</h2>
-                    <p className='w-[90%] sm:w-[80%] lg:w-[50%] mx-auto text-black text-center'>To benefit from our academic support services, simply follow these easy steps:</p>
+                    <p className='w-[90%] sm:w-[84%] lg:w-[50%] mx-auto text-black text-center'>Accessing our academic support services is straightforward. Just follow these simple steps:</p>
 
                     {/* --------------- CONTENT ---------------  */}
                     <div className="mt-12 grid grid-cols-1 gap-5 lg:grid-cols-2 lg:gap-10 sm:px-8 px-4">
@@ -23,7 +15,7 @@ const ProcessForHelpWithClass = () => {
                         {/* DETAIL BOXES */}
                         <div className="space-y-4">
 
-                            <details className="group rounded-2xl bg-white border border-blue-500 [&_summary::-webkit-details-marker]:hidden" open>
+                            <details className="group rounded-2xl bg-white border border-purple-800 [&_summary::-webkit-details-marker]:hidden" open>
                                 {/* HEADER */}
                                 <summary className="flex px-3 py-3 cursor-pointer items-center justify-between gap-1.5 text-gray-900">
                                     <h2 className="text-lg font-medium flex items-center pl-3">
@@ -31,18 +23,18 @@ const ProcessForHelpWithClass = () => {
                                         Provide Order Details
                                     </h2>
 
-                                    <span className="ml-auto bg-blue-500 text-white p-2 rounded-full w-10 h-10 flex items-center justify-center">
+                                    <span className="ml-auto bg-purple-800 text-white p-2 rounded-full w-10 h-10 flex items-center justify-center">
                                         01
                                     </span>
                                 </summary>
 
                                 {/* TEXT */}
                                 <p className="mt-1 px-4 pb-4 leading-relaxed text-gray-700">
-                                    Begin by sharing the essential information about your task—be it an assignment, exam, or online class support request. Include the subject, topic, academic level, deadline, and any specific instructions or requirements to help us tailor our services.
+                                    Share the key info about your assignment, exam, or online class request—such as subject, topic, academic level, deadline, and any special requirements—so we can tailor our assistance precisely.
                                 </p>
                             </details>
 
-                            <details className="group rounded-2xl bg-white border border-blue-500 [&_summary::-webkit-details-marker]:hidden">
+                            <details className="group rounded-2xl bg-white border border-purple-800 [&_summary::-webkit-details-marker]:hidden">
                                 {/* HEADER */}
                                 <summary className="flex px-3 py-3 cursor-pointer items-center justify-between gap-1.5 text-gray-900">
                                     <h2 className="text-lg font-medium flex items-center pl-3">
@@ -50,18 +42,18 @@ const ProcessForHelpWithClass = () => {
                                         Get a Price Quote
                                     </h2>
 
-                                    <span className="ml-auto bg-blue-500 text-white p-2 rounded-full w-10 h-10 flex items-center justify-center">
+                                    <span className="ml-auto bg-purple-800 text-white p-2 rounded-full w-10 h-10 flex items-center justify-center">
                                         02
                                     </span>
                                 </summary>
 
                                 {/* TEXT */}
                                 <p className="mt-1 px-4 pb-4 leading-relaxed text-gray-700">
-                                    Once we have your details, we'll present a transparent price quote. We believe in fairness, so there are no hidden fees or unexpected costs.
+                                    Once we receive your details, we’ll provide a transparent quote. We believe in fairness, so there are no hidden fees or extra charges.
                                 </p>
                             </details>
 
-                            <details className="group rounded-2xl bg-white border border-blue-500 [&_summary::-webkit-details-marker]:hidden">
+                            <details className="group rounded-2xl bg-white border border-purple-800 [&_summary::-webkit-details-marker]:hidden">
                                 {/* HEADER */}
                                 <summary className="flex px-3 py-3 cursor-pointer items-center justify-between gap-1.5 text-gray-900">
                                     <h2 className="text-lg font-medium flex items-center pl-3">
@@ -69,18 +61,18 @@ const ProcessForHelpWithClass = () => {
                                         Make Payment
                                     </h2>
 
-                                    <span className="ml-auto bg-blue-500 text-white p-2 rounded-full w-10 h-10 flex items-center justify-center">
+                                    <span className="ml-auto bg-purple-800 text-white p-2 rounded-full w-10 h-10 flex items-center justify-center">
                                         03
                                     </span>
                                 </summary>
 
                                 {/* TEXT */}
                                 <p className="mt-1 px-4 pb-4 leading-relaxed text-gray-700">
-                                    After reviewing the quote, choose a payment method that's most convenient for you. We offer multiple secure online payment options for a seamless transaction.
+                                    After reviewing the quote, pick the payment method most convenient for you. Our secure online options ensure a smooth transaction.
                                 </p>
                             </details>
 
-                            <details className="group rounded-2xl bg-white border border-blue-500 [&_summary::-webkit-details-marker]:hidden">
+                            <details className="group rounded-2xl bg-white border border-purple-800 [&_summary::-webkit-details-marker]:hidden">
                                 {/* HEADER */}
                                 <summary className="flex px-3 py-3 cursor-pointer items-center justify-between gap-1.5 text-gray-900">
                                     <h2 className="text-lg font-medium flex items-center pl-3">
@@ -88,14 +80,14 @@ const ProcessForHelpWithClass = () => {
                                         Get Your Work Done
                                     </h2>
 
-                                    <span className="ml-auto bg-blue-500 text-white p-2 rounded-full w-10 h-10 flex items-center justify-center">
+                                    <span className="ml-auto bg-purple-800 text-white p-2 rounded-full w-10 h-10 flex items-center justify-center">
                                         04
                                     </span>
                                 </summary>
 
                                 {/* TEXT */}
                                 <p className="mt-1 px-4 pb-4 leading-relaxed text-gray-700">
-                                    Our experts will begin working on your project promptly, prioritizing quality and timeliness. Upon completion, we'll deliver the final draft, and you're welcome to request revisions as needed.
+                                    Our experts will start working right away, focusing on quality and punctuality. When we’re finished, you’ll receive the final draft, and you’re welcome to request any necessary revisions.
                                 </p>
                             </details>
 
@@ -103,7 +95,7 @@ const ProcessForHelpWithClass = () => {
 
                         {/* IMAGE */}
                         <div className="right_image mt-5 sm:mt-0 px-3 md:px-40 lg:px-10 xl:px-20 mx-auto">
-                            <img className="object-cover object-center rounded" alt="hero" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_72071.png?v=1712918884" />
+                            <img className="object-cover object-center rounded" alt="hero" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/0f7ed711-c81d-43d1-8a88-781f70a55fb5.png?v=1736073070" />
                         </div>
                     </div>
                 </div>
