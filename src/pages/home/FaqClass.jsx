@@ -4,12 +4,12 @@ import Button from '../../components/Button';
 const AccordionItem = ({ question, answer }) => (
     <details className="group [&_summary::-webkit-details-marker]:hidden">
         <summary
-            className="flex cursor-pointer items-center justify-between gap-1.5 border border-[#1A73E8] rounded-lg bg-white p-4 text-gray-900"
+            className="flex cursor-pointer items-center justify-between gap-1.5 border border-button rounded-lg bg-white p-4 text-gray-900"
             aria-expanded="false"
         >
             <h3 className="font-medium">{question}</h3>
             <svg
-                className="size-5 shrink-0 transition duration-300 group-open:-rotate-180 text-[#1A73E8]"
+                className="size-5 shrink-0 transition duration-300 group-open:-rotate-180 text-button"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
