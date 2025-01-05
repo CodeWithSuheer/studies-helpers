@@ -8,32 +8,32 @@ import Button from './Button';
 const data = [
     {
         title: "Quality Writing—No AI",
-        description: "Receive entirely human-generated, carefully researched, and meticulously written content. Our experts hold advanced academic qualifications and bring genuine insights to your assignments.",
+        description: "Receive fully human-generated, meticulously researched, and precisely written assignments. Our experts hold advanced degrees and bring valuable insights to every project.",
         icon: <MdEditNote size={46} />
     },
     {
         title: "Timely Assistance",
-        description: "Facing a tight deadline? We're here to help ensure your work is completed on schedule. Rely on our team for rapid turnaround and timely submissions, even under pressing timelines.",
+        description: "Worried about an upcoming due date? We work tirelessly to ensure your assignments are completed on time. Rely on our rapid turnaround, even under the tightest schedules.",
         icon: <AiOutlineClockCircle size={46} />
     },
     {
         title: "Learner-Friendly Policies",
-        description: "Our student-centered approach includes fair, transparent policies and a money-back guarantee. Your satisfaction and peace of mind matter to us.",
+        description: "Our student-centric approach features transparent policies and a money-back guarantee. Your peace of mind and satisfaction are our top priorities.",
         icon: <FaHandshake size={46} />
     },
     {
         title: "Reliable Academic Experts",
-        description: "Every specialist on our platform holds a Master's or Doctorate degree. This ensures you receive informed guidance, accurate research, and well-structured materials tailored to your academic needs.",
+        description: "Every professional on our platform holds a Master’s or Doctorate. This guarantees well-informed guidance, credible research, and detailed academic materials aligned with your course requirements.",
         icon: <MdSchool size={46} />
     },
     {
         title: "Budget-Conscious Services",
-        description: "Our flexible pricing system is designed to fit a student's budget. Take advantage of available discounts and promotions, so you can access top-tier support without overspending.",
+        description: "We adapt our pricing to suit a student’s budget. Benefit from available discounts and special offers, so you can get premier support without overspending.",
         icon: <FaDollarSign size={46} />
     },
     {
         title: "24/7 Availability",
-        description: "Have a question at midnight or need clarification early in the morning? We're here around the clock. Reach out anytime, and our responsive team will be ready to assist you.",
+        description: "Have a midnight question or need early-morning clarification? We’re here around the clock. Contact us at any time, and our responsive team will be ready to assist.",
         icon: <BsFillChatDotsFill size={46} />
     },
 ];
@@ -42,20 +42,20 @@ const data = [
 export default function AssignmentServices() {
     return (
         <>
-            <section className="bg-[#F4F8FE]">
+            <section className="bg-surfacev2">
                 <div className="max-w-6xl mx-auto py-14">
                     {/* --------------- HEADER TEXT ---------------  */}
                     <h2 className="mb-3 font-bold pl-2 text-3xl md:text-4xl w-[95%] sm:w-[100%] mx-auto text-[#272727] text-center">
-                        SudyWello: Top Features for Quality Academic Support
+                        Studies Helpers: Top Features for Quality Academic Support
                     </h2>
                     <p className="w-[90%] sm:w-[80%] lg:w-[80%] mx-auto text-black text-center">
-                        Discover why students worldwide trust us for expert, custom-crafted academic guidance and writing assistance. Our commitment to authenticity, timely delivery, and learner-focused policies sets us apart.
+                        Learn why students worldwide rely on us for expert, tailor-made academic guidance and writing help. Our dedication to authentic work, timely delivery, and learner-focused principles sets us apart.
                     </p>
 
                     <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 lg:gap-8 my-10 sm:my-12">
                         {data?.map((data) => (
                             <div className="w-full p-4 flex justify-start gap-x-3">
-                                <div className="icon text-[#1A73E8]">
+                                <div className="icon text-purple-800">
                                     {data?.icon}
                                 </div>
                                 <div className="content">

@@ -35,7 +35,7 @@ const Comparison = ({
     buttonText = "Help Me With Class"
 }) => {
     return (
-        <section className="py-10 sm:py-20 bg-gradient-to-b from-blue-50 to-white">
+        <section className="py-10 sm:py-20 bg-gradient-to-b from-purple-50 to-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
                     <h2 className="text-2xl sm:text-4xl font-bold text-gray-900 mb-4">
@@ -50,7 +50,7 @@ const Comparison = ({
                     {StudyHelpersData.map((item, index) => (
                         <div key={index} className="bg-white rounded-lg shadow-md p-6 flex items-center space-x-4">
                             <div className="flex-shrink-0">
-                                <div className="bg-blue-100 rounded-full p-3">
+                                <div className="bg-surfacev2 rounded-full p-3">
                                     <Icon name={item.icon} className="w-6 h-6 text-blue-600" />
                                 </div>
                             </div>

@@ -72,16 +72,16 @@ const EmailFormForAssignment = () => {
     }
     return (
         <>
-            <div className="w-full text-center bg-[#F2EFFF] text-black rounded-xl shadow-xl">
+            <div className="w-full text-center bg-surfacev2 text-black rounded-xl shadow-xl">
 
-                <div className="box px-2 bg-blue-200 text-blue-700 font-semibold py-4 rounded-t-xl text-md sm:text-lg tracking-wide">15% Off! 🌟 on Your First Assignment</div>
+                <div className="box px-2 bg-lightSurface text-dark font-semibold py-4 rounded-t-xl text-md sm:text-lg tracking-wide">15% Off! 🌟 on Your First Assignment</div>
 
                 <div className="content px-3 sm:px-6 mt-6 pb-6">
-                    <h2 className="mb-4 text-black text-2xl font-semibold">Need Professional Help with Your Assignments?<span className="text-[#1A73E8]"> Chat Now</span></h2>
+                    <h2 className="mb-4 text-black text-2xl font-semibold">Need Professional Help with Your Assignments?<span className="text-primaryText"> Chat Now</span></h2>
 
-                    <p className="mb-4 text-sm sm:text-md max-w-sm mx-auto">Achieve Top Grades Without the Stress - Connect with an Expert for Your Academic Needs!</p>
+                    <p className="mb-4 text-sm sm:text-md max-w-sm mx-auto">Reach out to our experts today and aim for top grades without the added tension!</p>
 
-                    <p className="mb-4 font-medium text-sm sm:text-md">24/7 Support, and Trusted Class Help.</p>
+                    <p className="mb-4 font-medium text-sm sm:text-md">24/7 Support & Trusted Class Assistance</p>
 
 
                     {/* FIELDS */}
@@ -115,7 +115,7 @@ const EmailFormForAssignment = () => {
                     <button
                         onClick={handleSubmit}
                         disabled={loading}
-                        className={`${loading ? "cursor-not-allowed" : ""} flex justify-center gap-x-1 items-center bg-[#1A73E8] text-white font-medium rounded-md w-full text-sm px-5 py-2.5`}
+                        className={`${loading ? "cursor-not-allowed" : ""} flex justify-center gap-x-1 items-center bg-button text-white font-medium rounded-md w-full text-sm px-5 py-2.5`}
                     >
                         {loading ? (<>Submitting...</>) : (<>Text Me <IoArrowForward /></>)}
                     </button>
@@ -139,7 +139,7 @@ const EmailFormForAssignment = () => {
                             onClick={() => {
                                 Tawk_API.toggle();
                             }}
-                            className="flex text-nowrap w-32 justify-center shadow-sm border border-gray-300 gap-x-1 items-center bg-white text-black font-medium rounded-md text-sm px-5 py-2.5"><IoChatbubbleSharp className='text-blue-500' size={22} /> Chat Now</button>
+                            className="flex text-nowrap w-32 justify-center shadow-sm border border-gray-300 gap-x-1 items-center bg-white text-black font-medium rounded-md text-sm px-5 py-2.5"><IoChatbubbleSharp className='text-button' size={22} /> Chat Now</button>
 
                         <a
                             href="mailto:support@StudyHelpers.com"

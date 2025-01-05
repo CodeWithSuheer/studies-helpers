@@ -26,6 +26,7 @@ import sample03 from '../../assets/assignment/sample03.jpeg';
 import sample04 from '../../assets/assignment/sample04.jpeg';
 import sample05 from '../../assets/assignment/sample05.jpeg';
 import FaqAssignment from "../home/FaqAssignment";
+import SubjectExperts from "../../components/SubjectExperts";
 
 const Assignments = () => {
 
@@ -59,7 +60,7 @@ const Assignments = () => {
         "https://cdn.shopify.com/s/files/1/0704/6378/2946/files/news_2.png?v=1713362546",
     },
     {
-      name: "Online discussions",
+      name: "Online Discussions",
       image:
         "https://cdn.shopify.com/s/files/1/0704/6378/2946/files/news_3.png?v=1713362546",
     },
@@ -97,18 +98,11 @@ const Assignments = () => {
                 Stressed About Assignments? Let Our Experts Lighten Your Load!
               </h2>
               <p className="mb-3 sm:mb-4 text-md sm:text-md w-full sm:max-w-lg  font-normal">
-                Managing multiple assignments can feel overwhelming—tight deadlines, complex instructions, and high standards can all add up to stress. At StudyHelpers, we're here to help turn that stress into confidence. Our top-rated, degreed professionals provide personalized support to ensure every assignment meets your academic goals.
+                Managing multiple assignments can be daunting—strict deadlines, intricate requirements, and high standards often create pressure. Studies Helpers is here to transform that stress into success. Our top-rated, highly qualified professionals provide tailored support, ensuring every assignment meets—and exceeds—your academic goals.
               </p>
 
-              <div className="button mt-4">
-                <button
-                  onClick={() => {
-                    Tawk_API.toggle();
-                  }}
-                  className="bg-white text-[#1A73E8] font-medium rounded-3xl px-5 py-2.5 flex items-center gap-2"
-                >
-                  <LuMessagesSquare /> Lets Chats <FaArrowRightLong size={14} />
-                </button>
+              <div className="mt-4 flex justify-start">
+                <Button text="Lets Chats" />
               </div>
             </div>
             {/* EMAIL FORM */}
@@ -141,10 +135,10 @@ const Assignments = () => {
               Choose Our Experienced Assignment Experts
             </h1>
             <p className="mb-3 leading-relaxed">
-              At StudyHelpers, we know that quality writing makes all the difference. Our team of seasoned professionals excels in crafting well-researched, clearly written, and perfectly formatted assignments—always delivered on time. Trust our experts to elevate your grades and ease your academic workload.
+              At Studies Helpers , we appreciate how essential high-quality writing is for academic success. Our seasoned professionals excel at delivering carefully researched, well-structured, and expertly formatted assignments—always delivered punctually. Trust our team to boost your grades while lightening your academic load.
             </p>
             <p className="mb-4 leading-relaxed">
-              Ready to Get Started?
+              Ready to Begin?
             </p>
             <div className="flex justify-start">
               <Button text="Order Now" />
@@ -192,341 +186,16 @@ const Assignments = () => {
 
       {/* --------------- COMPARISON ---------------  */}
       <Comparison
-        mainHeading="Why Should You Hire Us to Support Your Assignments & Homework?"
-        subHeading="We can meet the standards of all universities and schools, ensuring that our assistance aligns perfectly with your academic requirements."
+        mainHeading="Why Should You Hire Us for Assignments & Homework?"
+        subHeading="We fulfill the standards of all universities and schools, ensuring our support aligns seamlessly with your coursework."
         buttonText="Help Me With Assignment"
       />
 
       {/* --------------- SERVICES ---------------  */}
-      <section className="bg-white">
-        <div className="max-w-6xl mx-auto py-20">
-          {/* --------------- HEADER TEXT ---------------  */}
-          <h2 className="mb-3 font-bold text-3xl md:text-4xl w-[95%] sm:w-[100%] mx-auto text-[#272727] text-center">
-            Meet Our Prestigious Subject Experts
-          </h2>
-          <p className="w-[90%] sm:w-[80%] lg:w-[80%] mx-auto text-black text-start sm:text-center">
-            Are you ready to meet our subject specialists? Introducing our
-            highly skilled and knowledgeable team of subject matter experts,
-            equipped to provide unmatched insights and quick academic solutions.
-          </p>
-
-          {/* --------------- TUTORS ---------------  */}
-          <div className="mt-8 grid grid-cols-1 gap-5 lg:grid-cols-3 lg:gap-8 sm:px-10 px-4 py-16">
-            {/* CARD 1 */}
-            <div className="mb-0 sm:mb-10 md:mb-10 testimonial_card relative card text-center mt-14 sm:mt-0 pt-12 pb-5 px-4 rounded-3xl">
-              <div className="absolute -top-12 flex justify-center items-center h-20  w-20  inset-0 mx-auto">
-                <img
-                  className="mid_img h-20  w-20  object-cover"
-                  src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Ellipse_11.png?v=1713362272"
-                  alt=""
-                />
-              </div>
-              <h2 className="mb-2 mt-0 text-lg font-semibold">David Carlton</h2>
-              <p className="my-2 text-gray-700 text-md font-normal">
-                MS in Computer Science
-              </p>
-
-              <div className="grid w-full place-items-center overflow-x-scroll rounded-lg p-0 lg:overflow-visible">
-                <div className="inline-flex items-center">
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mx-0.5 w-5 h-5 text-[#FC9802] cursor-pointer"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                        clipRule="evenodd"
-                      ></path>
-                    </svg>
-                  </span>
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mx-0.5 w-5 h-5 text-[#FC9802] cursor-pointer"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                        clipRule="evenodd"
-                      ></path>
-                    </svg>
-                  </span>
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mx-0.5 w-5 h-5 text-[#FC9802] cursor-pointer"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                        clipRule="evenodd"
-                      ></path>
-                    </svg>
-                  </span>
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mx-0.5 w-5 h-5 text-[#FC9802] cursor-pointer"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                        clipRule="evenodd"
-                      ></path>
-                    </svg>
-                  </span>
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mx-0.5 w-5 h-5 text-[#FC9802] cursor-pointer"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                        clipRule="evenodd"
-                      ></path>
-                    </svg>
-                  </span>
-                </div>
-              </div>
-
-              <h3 className="my-2.5">
-                Expertise in Computer Science assignements with 12 years
-                experience.
-              </h3>
-
-              <button
-                onClick={() => {
-                  Tawk_API.toggle();
-                }}
-                className="mt-3 bg-blue-600 rounded-3xl px-6 py-2.5 text-white"
-              >
-                Hire Me
-              </button>
-            </div>
-
-            {/* CARD 2 */}
-            <div className="mb-0 sm:mb-10 md:mb-10 testimonial_card relative card text-center mt-14 sm:mt-0 pt-12 pb-5 px-4 rounded-3xl">
-              <div className="absolute -top-12 flex justify-center items-center h-20  w-20  inset-0 mx-auto">
-                <img
-                  className="mid_img h-20  w-20  object-cover"
-                  src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Ellipse_11-3.png?v=1713362273"
-                  alt=""
-                />
-              </div>
-              <h2 className="mb-2 mt-0 text-lg font-semibold">David Carlton</h2>
-              <p className="my-2 text-gray-700 text-md font-normal">
-                MS in Applied Mathematics
-              </p>
-
-              <div className="grid w-full place-items-center overflow-x-scroll rounded-lg p-0 lg:overflow-visible">
-                <div className="inline-flex items-center">
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mx-0.5 w-5 h-5 text-[#FC9802] cursor-pointer"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                        clipRule="evenodd"
-                      ></path>
-                    </svg>
-                  </span>
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mx-0.5 w-5 h-5 text-[#FC9802] cursor-pointer"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                        clipRule="evenodd"
-                      ></path>
-                    </svg>
-                  </span>
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mx-0.5 w-5 h-5 text-[#FC9802] cursor-pointer"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                        clipRule="evenodd"
-                      ></path>
-                    </svg>
-                  </span>
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mx-0.5 w-5 h-5 text-[#FC9802] cursor-pointer"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                        clipRule="evenodd"
-                      ></path>
-                    </svg>
-                  </span>
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mx-0.5 w-5 h-5 text-[#FC9802] cursor-pointer"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                        clipRule="evenodd"
-                      ></path>
-                    </svg>
-                  </span>
-                </div>
-              </div>
-
-              <h3 className="my-2.5">
-                Expertise in mathematics assignements with 10 years experience.
-              </h3>
-
-              <button
-                onClick={() => {
-                  Tawk_API.toggle();
-                }}
-                className="mt-3 bg-blue-600 rounded-3xl px-6 py-2.5 text-white"
-              >
-                Hire Me
-              </button>
-            </div>
-
-            {/* CARD 3 */}
-            <div className="mb-0 sm:mb-10 md:mb-10 testimonial_card relative card text-center mt-14 sm:mt-0 pt-12 pb-5 px-4 rounded-3xl">
-              <div className="absolute -top-12 flex justify-center items-center h-20  w-20  inset-0 mx-auto">
-                <img
-                  className="mid_img h-20  w-20  object-cover"
-                  src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Ellipse_11-1.png?v=1713362272"
-                  alt=""
-                />
-              </div>
-              <h2 className="mb-2 mt-0 text-lg font-semibold">David Carlton</h2>
-              <p className="my-2 text-gray-700 text-md font-normal">
-                MS in Applied Mathematics
-              </p>
-
-              <div className="grid w-full place-items-center overflow-x-scroll rounded-lg p-0 lg:overflow-visible">
-                <div className="inline-flex items-center">
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mx-0.5 w-5 h-5 text-[#FC9802] cursor-pointer"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                        clipRule="evenodd"
-                      ></path>
-                    </svg>
-                  </span>
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mx-0.5 w-5 h-5 text-[#FC9802] cursor-pointer"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                        clipRule="evenodd"
-                      ></path>
-                    </svg>
-                  </span>
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mx-0.5 w-5 h-5 text-[#FC9802] cursor-pointer"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                        clipRule="evenodd"
-                      ></path>
-                    </svg>
-                  </span>
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mx-0.5 w-5 h-5 text-[#FC9802] cursor-pointer"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                        clipRule="evenodd"
-                      ></path>
-                    </svg>
-                  </span>
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mx-0.5 w-5 h-5 text-[#FC9802] cursor-pointer"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                        clipRule="evenodd"
-                      ></path>
-                    </svg>
-                  </span>
-                </div>
-              </div>
-
-              <h3 className="my-2.5">
-                Expertise in mathematics assignements with 10 years experience.
-              </h3>
-
-              <button
-                onClick={() => {
-                  Tawk_API.toggle();
-                }}
-                className="mt-3 bg-blue-600 rounded-3xl px-6 py-2.5 text-white"
-              >
-                Hire Me
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
+      <SubjectExperts />
 
       {/* --------------- SECOND CTA SECTION ---------------  */}
-      <CtaTwo heading="Don't let tough assignments hold you back. Get expert help now and secure the grades you deserve!" text="Hire an Expert" />
+      <CtaTwo heading="Don't let challenging assignments drag you down—secure the grades you deserve with expert help!" text="Hire an Expert" />
 
       {/* --------------- ASSIGNMENT SERVICE ---------------  */}
       <section className="bg-[#F4F8FE]">
@@ -542,7 +211,7 @@ const Assignments = () => {
                 key={index}
                 className="min-w-72 flex items-center text-black bg-white rounded-[2rem] shadow cursor-pointer"
               >
-                <span className="bg-blue-500 h-full w-16 mr-2 flex justify-center items-center rounded-full">
+                <span className="bg-button h-full w-16 mr-2 flex justify-center items-center rounded-full">
                   <img className="p-4" src={data.image} alt="" />
                 </span>
                 <span className="mx-3 font-medium text-md">{data.name}</span>

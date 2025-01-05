@@ -73,7 +73,7 @@ const EmailFormForHome = () => {
 
     return (
         <>
-            <div className="w-full text-center bg-[#F2EFFF] text-black rounded-xl shadow-xl">
+            <div className="w-full text-center bg-surfacev2 text-black rounded-xl shadow-xl">
 
                 <div className="box px-2 bg-lightSurface text-dark font-semibold py-4 rounded-t-xl text-md sm:text-lg tracking-wide">15% Off! 🌟 on Your First Exam Assistance Order</div>
 

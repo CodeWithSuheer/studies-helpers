@@ -80,7 +80,7 @@ function SampleCard({ sample }) {
                 </div>
             </div>
 
-            <Link to="/samples" className="w-full bg-[#1A73E8] text-white py-2 rounded-md flex items-center justify-center gap-2 transition-colors mb-3">
+            <Link to="/samples" className="w-full bg-button text-white py-2 rounded-md flex items-center justify-center gap-2 transition-colors mb-3">
                 <IoMdEye size={20} />
                 <span>View Full Sample</span>
             </Link>

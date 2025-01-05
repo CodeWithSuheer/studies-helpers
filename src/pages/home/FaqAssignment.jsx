@@ -3,12 +3,12 @@ import React from 'react';
 const AccordionItem = ({ question, answer }) => (
     <details className="group [&_summary::-webkit-details-marker]:hidden">
         <summary
-            className="flex cursor-pointer items-center justify-between gap-1.5 border border-[#1A73E8] rounded-lg bg-white p-4 text-gray-900"
+            className="flex cursor-pointer items-center justify-between gap-1.5 border border-button rounded-lg bg-white p-4 text-gray-900"
             aria-expanded="false"
         >
             <h3 className="font-medium">{question}</h3>
             <svg
-                className="size-5 shrink-0 transition duration-300 group-open:-rotate-180 text-[#1A73E8]"
+                className="size-5 shrink-0 transition duration-300 group-open:-rotate-180 text-button"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -26,39 +26,39 @@ const FaqAssignment = () => {
     const faqs = [
         {
             question: "Can You Assist Me with My Assignment?",
-            answer: "Absolutely! Our team of skilled writers at StudyHelpers is ready to help you with your assignments. Simply place an order with us, and we'll deliver high-quality, well-researched work tailored to your specific needs."
+            answer: "Absolutely! Our skilled writers at Studies Helpers are prepared to handle your assignments. Just submit your order, and we'll deliver a thoroughly researched, high-quality paper customized to your needs."
         },
         {
             question: "Can You Help Me with My Assignment Confidentially?",
-            answer: "Certainly! At StudyHelpers, your privacy is our top priority. We ensure that all your personal information and assignment details are kept strictly confidential, providing you with a secure and discreet service."
+            answer: "Certainly. At Studies Helpers , we prioritize your privacy. Rest assured that your personal details and assignment information remain confidential, ensuring a secure and discreet experience."
         },
         {
             question: "How Can I Get Assistance with My Assignment?",
-            answer: "Getting help is easy. Visit StudyHelpers's website, fill out our order form with your assignment details, and our team will promptly connect with you to provide the support you need to succeed."
+            answer: "It's simple. Visit Studies Helpers website, fill in the order form with your assignment details, and our team will quickly connect with you to offer the support you need."
         },
         {
             question: "What Guarantees Do You Provide for Assignment Assistance?",
-            answer: "We guarantee timely delivery, original and high-quality content, and strict adherence to your specific requirements. If you're not completely satisfied, we offer revisions to ensure the final result meets your expectations."
+            answer: "We promise on-time delivery, originality, and content that meets your exact specifications. If you're not entirely happy, we offer revisions to align the final result with your expectations."
         },
         {
             question: "How Can I Pay for Assignment Assistance?",
-            answer: "Paying for your assignment support is hassle-free with StudyHelpers. After placing your order, you can securely make the payment using our trusted and safe payment methods, including credit cards, PayPal, and more."
+            answer: "Paying for your order is straightforward with Studies Helpers . After placing your request, choose from trusted payment methods, including credit cards, PayPal, and others."
         },
         {
             question: "Do You Offer Online Assignment Help for All Subjects?",
-            answer: "Yes! StudyHelpers has experts in a wide range of subjects. No matter your field of study, our specialists are equipped to assist you with your assignments, ensuring comprehensive and accurate support across disciplines like business, nursing, engineering, humanities, and more."
+            answer: "Yes! Studies Helpers covers an extensive range of disciplines. Whatever your major or focus area, our specialists can assist you, ensuring thorough and accurate help across fields like business, nursing, engineering, humanities, and more."
         },
         {
             question: "What If I'm Not Satisfied with the Assignment Help?",
-            answer: "Your satisfaction is our priority. If you're not fully satisfied with the assignment we provide, we offer free revisions to address any concerns. Additionally, our money-back guarantee ensures that your investment is protected, giving you peace of mind."
+            answer: "Your satisfaction is our priority. If you're not pleased with the assignment, we'll make as many adjustments as needed. Moreover, our money-back guarantee protects your investment, so you can work with us worry-free."
         },
         {
-            question: "Can I communicate with the expert working on my assignment?",
-            answer: "Yes! At StudyHelpers, we encourage open communication. You can connect with your assigned expert through our secure messaging system to discuss specific requirements, share additional resources, or ask for clarifications—all in real time."
+            question: "Can I Communicate with the Expert Working on My Assignment?",
+            answer: "Yes. At Studies Helpers , we encourage direct communication. You can contact your assigned expert through a secure messaging system, share extra resources, or seek clarification on any part of the assignment."
         },
         {
-            question: "How does StudyHelpers handle plagiarism in assignments?",
-            answer: "Originality is a top priority at StudyHelpers. Our rigorous quality control process includes thorough research, careful referencing, and advanced plagiarism detection tools to guarantee that every submission is unique and adheres to strict academic standards."
+            question: "How does Study Helpers handle plagiarism in assignments?",
+            answer: "Originality is vital to our process. We perform in-depth research, apply proper referencing, and use advanced plagiarism detection tools to ensure each paper is both unique and academically sound."
         },
     ];
 

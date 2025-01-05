@@ -29,7 +29,7 @@ const LogoGrid = () => {
         <div className="py-8">
             <div className="max-w-6xl  mx-auto px-4 md:px-8">
                 {/* --------------- HEADER TEXT ---------------  */}
-                <h3 className="mb-2 font-medium text-md text-[#1A73E8] text-center">We Fulfil the Requirement of</h3>
+                <h3 className="mb-2 font-medium text-md text-purple-700 text-center">We Fulfil the Requirement of</h3>
                 <h2 className="mb-3 font-bold text-3xl md:text-4xl w-[95%] sm:w-[100%] mx-auto text-[#272727] text-center">All Educational Institutions</h2>
 
                 {/* --------------- LOGO GRID ---------------  */}
