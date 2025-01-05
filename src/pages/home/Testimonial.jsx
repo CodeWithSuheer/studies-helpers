@@ -87,11 +87,7 @@ const Testimonial = () => {
                 </div>
 
                 <p className="mt-4">
-                  I was struggling to keep up with my online class, but
-                  StudyHelpers's tutors were a lifesaver. They helped me
-                  understand the material, complete my assignments, and prepare
-                  for exams. I ended up getting an A in the class, and I
-                  couldn't have done it without them.
+                  “I was worried about staying on top of my online class, but the support from Studies Helpers  changed everything. I not only managed to earn an A but also gained a deeper grasp of the course material.”
                 </p>
               </blockquote>
             </div>
@@ -157,10 +153,7 @@ const Testimonial = () => {
                 </div>
 
                 <p className="mt-4 text-gray-700">
-                  "I was so nervous about my upcoming exam, but StudyHelpers's
-                  exam help service gave me the confidence I needed to succeed.
-                  Their experts helped me review the material, develop effective
-                  study strategies, and tackle practice exams.
+                  “Exams have always made me nervous, but the strategies and practice sessions I got from Studies Helpers  boosted my confidence and results more than I ever expected.”
                 </p>
               </blockquote>
             </div>
@@ -226,12 +219,7 @@ const Testimonial = () => {
                 </div>
 
                 <p className="mt-4 text-gray-700">
-                  Completing assignments was always a stressful experience for
-                  me, but StudyHelpers's assignment aid service has made it so
-                  much easier. Their tutors provide clear and concise
-                  explanations, and they always meet my deadlines. I'm so glad I
-                  found StudyHelpers, and I highly recommend their services to
-                  anyone struggling with assignments.
+                  “Assignments used to overwhelm me. Thanks to Studies Helpers , I’m meeting deadlines effortlessly, and my grades are already going up.”
                 </p>
               </blockquote>
             </div>
@@ -290,9 +278,8 @@ const Testimonial = () => {
                 </div>
 
                 <p className="mt-4 text-gray-700">
-                  "I've tried other homework help websites, but none of them
-                  compare to StudyHelpers. I'm so impressed with their services,
-                  and I'll definitely be using them again in the future." 💪
+                  “I’ve tried other services before, but none compare to Studies Helpers in terms of quality and reliability. I’ll definitely be back for future help!”
+
                 </p>
               </blockquote>
             </div>
@@ -358,12 +345,7 @@ const Testimonial = () => {
                 </div>
 
                 <p className="mt-4 text-gray-700">
-                  As a busy student, I don't always have time to complete all my
-                  assignments on my own. StudyHelpers's services have been a
-                  lifesaver for me. Their tutors are always available to help,
-                  and they're always understanding of my busy schedule. I'm so
-                  grateful for their help, and I highly recommend them to any
-                  busy student
+                  “Balancing work, family, and classes isn’t easy, but the tutors at Studies Helpers have been flexible and supportive every step of the way. They’re a true lifesaver!”
                 </p>
               </blockquote>
             </div>
@@ -429,10 +411,7 @@ const Testimonial = () => {
                 </div>
 
                 <p className="mt-4 text-gray-700">
-                  "I've had to reach out to StudyHelpers's tutors at all hours of
-                  the day and night, and they've always been there to help.
-                  Their 24/7 availability is amazing, and it's given me peace of
-                  mind knowing that I can always get help when I need it.
+                  “Late-night questions, last-minute study sessions—Studies Helpers  has been there for it all. Knowing I can get help anytime truly puts me at ease.”
                 </p>
               </blockquote>
             </div>
@@ -498,11 +477,7 @@ const Testimonial = () => {
                 </div>
 
                 <p className="mt-4 text-gray-700">
-                  "I was hesitant to use a homework help website at first, but
-                  StudyHelpers's money-back guarantee gave me peace of mind. I'm
-                  so glad I decided to give them a try, and I'm so impressed
-                  with their services. I would definitely recommend them to
-                  anyone looking for academic assistance.
+                  “I was initially hesitant, but their money-back guarantee gave me the confidence to try. The results have been outstanding, and I’m so glad I went for it.”
                 </p>
               </blockquote>
             </div>
@@ -568,12 +543,7 @@ const Testimonial = () => {
                 </div>
 
                 <p className="mt-4 text-gray-700">
-                  As a non-native English speaker, I often struggle with writing
-                  assignments. StudyHelpers's assignment help service has been a
-                  lifesaver for me. Their writers always deliver high-quality
-                  work that meets my professor's expectations. I highly
-                  recommend their services to anyone who needs help with their
-                  assignments 🌈"
+                  “As a non-native English speaker, I’ve always found writing challenging. Studies Helpers’s support helped me meet my professors’ standards and build my confidence.”
                 </p>
               </blockquote>
             </div>
@@ -632,11 +602,7 @@ const Testimonial = () => {
                 </div>
 
                 <p className="mt-4 text-gray-700">
-                  "I was facing a tight deadline for a complex research paper,
-                  and I was feeling overwhelmed. StudyHelpers's research paper
-                  writing service came to my rescue. With their help, I was able
-                  to submit my paper on time and received an excellent grade.
-                  Thank you, StudyHelpers 🙌
+                  “When I had a research paper due in no time, Studies Helpers  came through with top-quality work. I met my deadline and ended up with an excellent grade!”
                 </p>
               </blockquote>
             </div>

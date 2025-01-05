@@ -62,16 +62,8 @@ const HomePage = () => {
             {/* CONTENT */}
             <div className="px-4 sm:px-5 lg:flex-grow lg:w-1/2 xl:pr-20 lg:pr-12 md:pr-16 flex flex-col md:items-start md:text-left items-start">
               <h2 className="mainHeading mb-5">
-                Your Trusted Academic Partner for Exams, Assignments & Online Classes
+                Your Trusted Academic Partner for Online Classes, Assignments & Exams
               </h2>
-              {/* <p className="mb-3 sm:text-md md:text-md xl:text-lg font-normal">
-                Overwhelmed by coursework? Looking to excel in complex subjects? StudyHelpers connects you with seasoned academic professionals who provide personalized guidance, helping you learn more efficiently, gain confidence, and achieve better results.
-              </p> */}
-
-              {/* <button onClick={() => setIsOpen(true)}>
-                  Open Modal
-                </button> */}
-
               {StudyHelpersData?.map((data, index) => (
                 <div key={index} className="flex gap-x-2 sm:gap-x-3 justify-start items-center">
                   <span className="icon text-green-500">
@@ -175,13 +167,13 @@ const HomePage = () => {
       {/* --------------- CTA SECTION ---------------  */}
       <CtaOneV2
         mainHeading="Eliminate Grade Stress - Invest in Expert Academic Support Today"
-        subHeading="Partner with StudyHelpers achieve top grades with professional guidance. A small investment for significant academic success."
+        subHeading="Partner with Studies Helpers  to aim for top results through professional guidance. A small step leads to significant academic gains."
         buttonText="Get Expert Support Now"
       />
 
       <Comparison
-        mainHeading="Why Should You Hire Us to Support Your Online Class, Assignments & Exams?"
-        subHeading="We can meet the standards of all universities and schools, ensuring that our assistance aligns perfectly with your academic requirements."
+        mainHeading="Why You Should Hire Us for Online Classes, Assignments & Exams?"
+        subHeading="We can align our support with the standards set by any educational institution, ensuring your assignments and exams fulfill strict academic requirements."
         buttonText="Get Expert Support Now"
       />
 

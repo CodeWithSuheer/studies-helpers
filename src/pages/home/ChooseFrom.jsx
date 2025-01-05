@@ -12,13 +12,15 @@ const ChooseFrom = () => {
 
                     {/* IMAGE */}
                     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                        <img className="object-cover object-center" alt="hero" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_1376.png?v=1712918871" />
+                        <img className="object-cover object-center" alt="hero" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/a386ebb8-7e38-4d05-89f4-b0969b733140.png?v=1736078064" />
                     </div>
 
                     {/* CONTENT */}
                     <div className="lg:flex-grow px-4 md:w-1/2 xl:pl-20 lg:pl-12 md:pl-16 flex flex-col md:items-start md:text-left items-start">
                         <h2 className="mb-3 sm:mb-4 text-2xl font-semibold capitalize text-black lg:text-4xl">Access Top-Rated Subject Specialists Today</h2>
-                        <p className="mb-3 sm:mb-4 text-md leading-6 font-normal text-black">Overwhelmed by coursework? Looking to excel in complex subjects? StudyHelpers connects you with seasoned academic professionals who provide personalized guidance, helping you learn more efficiently, gain confidence, and achieve better results.</p>
+                        <p className="mb-3 sm:mb-4 text-md leading-6 font-normal text-black">
+                            Overwhelmed by multiple deadlines? Seeking to excel in complex subjects? Studies Helpers connects you with accomplished academic experts who offer personalized support—so you can learn more efficiently, build confidence, and achieve notable results.
+                        </p>
 
                         <div className="mt-3 flex justify-start">
                             <Button text="Order Now" />

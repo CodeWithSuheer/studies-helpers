@@ -17,7 +17,7 @@ const CtaOneV2 = ({
 
             <div className="lg:col-span-3 lg:flex-grow pr-8 flex flex-col text-start">
 
-              <h1 className="mb-1 pb-3 font-bold max-w-xl text-3xl md:text-5xl bg-gradient-to-tr from-blue-600  to-blue-300 bg-clip-text text-transparent">{mainHeading}</h1>
+              <h1 className="mb-1 pb-3 font-bold max-w-xl text-3xl md:text-5xl bg-gradient-to-tr from-violet-700  to-violet-300 bg-clip-text text-transparent">{mainHeading}</h1>
 
               <p className="mb-6 max-w-lg text-gray-700 leading-relaxed text-lg">{subHeading}</p>
 

@@ -4,12 +4,12 @@ import Button from '../../components/Button';
 const AccordionItem = ({ question, answer }) => (
     <details className="group [&_summary::-webkit-details-marker]:hidden">
         <summary
-            className="flex cursor-pointer items-center justify-between gap-1.5 border border-[#1A73E8] rounded-lg bg-white p-4 text-gray-900"
+            className="flex cursor-pointer items-center justify-between gap-1.5 border border-button rounded-lg bg-white p-4 text-gray-900"
             aria-expanded="false"
         >
             <h3 className="font-medium">{question}</h3>
             <svg
-                className="size-5 shrink-0 transition duration-300 group-open:-rotate-180 text-[#1A73E8]"
+                className="size-5 shrink-0 transition duration-300 group-open:-rotate-180 text-button"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -27,31 +27,31 @@ const FaqHome = () => {
     const faqs = [
         {
             question: "Will anyone know I'm using your services?",
-            answer: "Your privacy is our top priority. We maintain strict confidentiality, never sharing your information with third parties. You can trust us to keep all details of our collaboration secure and discreet."
+            answer: "Your privacy is paramount. We operate under strict confidentiality and do not share your information with any external parties. Rest assured, all aspects of our collaboration remain discreet and secure."
         },
         {
             question: "Will you match me with the right subject expert?",
-            answer: "Absolutely! Simply provide your course details, and we'll connect you with a specialized academic professional who understands your subject matter. If you're unsure who's best, we'll find the perfect fit on your behalf."
+            answer: "Absolutely! Once you provide details about your course, we'll pair you with a specialized academic professional who understands your subject. If you're unsure who's the best fit, we'll select the perfect expert on your behalf."
         },
         {
             question: "How quickly can you complete my project?",
-            answer: "We understand deadlines matter. Our team is equipped to handle urgent requests without compromising quality. Whether your due date is days away or right around the corner, count on us to deliver on time."
+            answer: "We recognize how important deadlines are. Our team is skilled at managing urgent requests without compromising quality. Whether you have a few days or just a few hours, count on us to deliver promptly."
         },
         {
             question: "What if I'm not fully satisfied with the results?",
-            answer: "Your satisfaction drives us. We offer revisions to refine and improve the work until it meets your expectations. In rare cases where the outcome falls short, we'll discuss a refund or alternative solutions as per our policy."
+            answer: "Your satisfaction is our priority. We offer revisions to fine-tune the work until it meets your standards. In rare instances where you still aren't satisfied, we'll discuss refunds or alternatives based on our policy."
         },
         {
             question: "Can you support all my course assignments and quizzes while ensuring academic integrity?",
-            answer: "We can provide guidance across various tasks—from assignments and quizzes to practice sessions for even the most secure exams. Everything we create is original, thoroughly researched, and checked with professional tools to ensure it's free from plagiarism."
+            answer: "Yes. We provide assistance for a wide range of tasks—from assignments and quizzes to practice sessions for even the most secure exams. Our content is always original, thoroughly researched, and verified to be free of plagiarism."
         },
         {
             question: "How do I request assistance for my online exam?",
-            answer: "Getting started is simple. Reach out via live chat or fill out our contact form with your exam details. Once we have the information, we'll connect you with a qualified expert who will guide you through the preparation process."
+            answer: "Getting started is easy. Reach out via live chat or complete our contact form, providing relevant exam details. Once we have your information, we'll assign an appropriate expert to guide you through exam preparation."
         },
         {
             question: "Can I communicate directly with the subject experts?",
-            answer: "Yes! We encourage open communication. You can message your assigned specialist directly, clarify any questions, and share new instructions to ensure the work aligns perfectly with your academic goals."
+            answer: "Certainly! We encourage direct communication so you can ask questions, provide updates, or add instructions, ensuring the work aligns perfectly with your academic objectives."
         },
     ];
 

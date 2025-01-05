@@ -78,11 +78,11 @@ const EmailFormForHome = () => {
                 <div className="box px-2 bg-lightSurface text-dark font-semibold py-4 rounded-t-xl text-md sm:text-lg tracking-wide">15% Off! 🌟 on Your First Exam Assistance Order</div>
 
                 <div className="content px-3 sm:px-6 mt-6 pb-8">
-                    <h2 className="mb-4 text-black text-2xl font-semibold">Get Instant Help In Online Class, Exams, Assignments?<span className="text-primaryText"> Chat Now</span></h2>
+                    <h2 className="mb-4 text-black text-2xl font-semibold">Need Immediate Support for Your Online Classes, Exams, or Assignments?</h2>
 
-                    <p className="mb-4 text-sm sm:text-md max-w-sm mx-auto">Chat with a Professional Now and Experience Stress-Free Academic Support!</p>
+                    <p className="mb-4 text-sm sm:text-md max-w-sm mx-auto">Chat now with our professionals for stress-free academic solutions!</p>
 
-                    <p className="mb-4 font-medium text-sm sm:text-md">24/7 Support, and Trusted Class Help.</p>
+                    <p className="mb-4 font-medium text-sm sm:text-md">24/7 Support, Trusted Class Guidance</p>
 
 
                     {/* FIELDS */}
@@ -140,7 +140,7 @@ const EmailFormForHome = () => {
                             onClick={() => {
                                 Tawk_API.toggle();
                             }}
-                            className="flex text-nowrap w-32 justify-center shadow-sm border border-gray-300 gap-x-1 items-center bg-white text-black font-medium rounded-md text-sm px-5 py-2.5"><IoChatbubbleSharp className='text-blue-500' size={22} /> Chat Now</button>
+                            className="flex text-nowrap w-32 justify-center shadow-sm border border-gray-300 gap-x-1 items-center bg-white text-black font-medium rounded-md text-sm px-5 py-2.5"><IoChatbubbleSharp className='text-button' size={22} /> Chat Now</button>
 
                         <a
                             href="mailto:support@StudyHelpers.com"

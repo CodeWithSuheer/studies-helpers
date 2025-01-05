@@ -11,11 +11,11 @@ const HomeProcess = () => {
 
     return (
         <>
-            <section className='bg-[#F4F8FE]'>
+            <section className='bg-surfacev2'>
                 <div className="max-w-7xl mx-auto py-14">
                     {/* --------------- HEADER TEXT ---------------  */}
                     <h2 className="mb-3 font-bold text-3xl md:text-4xl w-[95%] sm:w-[100%] mx-auto text-[#272727] text-center">The Process We Follow</h2>
-                    <p className='w-[90%] sm:w-[80%] lg:w-[50%] mx-auto text-black text-center'>In order to avail of our academic writing services, you have to follow the simplest procedure mentioned below:</p>
+                    <p className='w-[90%] sm:w-[80%] lg:w-[50%] mx-auto text-black text-center'>In order to avail of our academic writing services, you have to follow the simplest procedure mentioned below</p>
 
                     {/* --------------- CONTENT ---------------  */}
                     <div className="mt-12 grid grid-cols-1 gap-5 lg:grid-cols-2 lg:gap-10 sm:px-8 px-4">
@@ -23,86 +23,87 @@ const HomeProcess = () => {
                         {/* DETAIL BOXES */}
                         <div className="space-y-4">
 
-                            <details className="group rounded-2xl bg-white border border-blue-500 [&_summary::-webkit-details-marker]:hidden" open>
+                            <details className="group rounded-2xl bg-white border border-purple-800 [&_summary::-webkit-details-marker]:hidden" open>
                                 {/* HEADER */}
                                 <summary className="flex px-3 py-3 cursor-pointer items-center justify-between gap-1.5 text-gray-900">
                                     <h2 className="text-lg font-medium flex items-center pl-3">
                                         <span><img className='size-10 mr-3' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/file_1_2.png?v=1713359000" alt="" /></span>
-                                        Provide Order Details
+                                        Step 1: Provide Task Details
                                     </h2>
 
-                                    <span className="ml-auto bg-blue-500 text-white p-2 rounded-full w-10 h-10 flex items-center justify-center">
+                                    <span className="ml-auto bg-purple-800 text-white p-2 rounded-full w-10 h-10 flex items-center justify-center">
                                         01
                                     </span>
                                 </summary>
 
                                 {/* TEXT */}
                                 <p className="mt-1 px-4 pb-4 leading-relaxed text-gray-700">
-                                    Begin by sharing the essential information about your task—be it an assignment, exam, or online class support request. Include the subject, topic, academic level, deadline, and any specific instructions or requirements to help us tailor our services.
+                                    Start by sharing the key information about your assignment, exam, or online class support. This includes the subject, topic, academic level, deadline, and any specific instructions. The more detail you provide, the easier it is for us to customize our services.
                                 </p>
                             </details>
 
-                            <details className="group rounded-2xl bg-white border border-blue-500 [&_summary::-webkit-details-marker]:hidden">
+                            <details className="group rounded-2xl bg-white border border-purple-800 [&_summary::-webkit-details-marker]:hidden">
                                 {/* HEADER */}
                                 <summary className="flex px-3 py-3 cursor-pointer items-center justify-between gap-1.5 text-gray-900">
                                     <h2 className="text-lg font-medium flex items-center pl-3">
                                         <span><img className='size-10 mr-3' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/file_1.png?v=1713358897" alt="" /></span>
-                                        Get a Price Quote
+                                        Step 2: Receive a Quote
                                     </h2>
 
-                                    <span className="ml-auto bg-blue-500 text-white p-2 rounded-full w-10 h-10 flex items-center justify-center">
+                                    <span className="ml-auto bg-purple-800 text-white p-2 rounded-full w-10 h-10 flex items-center justify-center">
                                         02
                                     </span>
                                 </summary>
 
                                 {/* TEXT */}
                                 <p className="mt-1 px-4 pb-4 leading-relaxed text-gray-700">
-                                    Once we have your details, we'll present a transparent price quote. We believe in fairness, so there are no hidden fees or unexpected costs.
+                                    Once we have your requirements, we'll give you a clear and upfront price quote. Our transparent pricing ensures there are no surprise charges or hidden fees.
                                 </p>
                             </details>
 
-                            <details className="group rounded-2xl bg-white border border-blue-500 [&_summary::-webkit-details-marker]:hidden">
+                            <details className="group rounded-2xl bg-white border border-purple-800 [&_summary::-webkit-details-marker]:hidden">
                                 {/* HEADER */}
                                 <summary className="flex px-3 py-3 cursor-pointer items-center justify-between gap-1.5 text-gray-900">
                                     <h2 className="text-lg font-medium flex items-center pl-3">
                                         <span><img className='size-10 mr-3' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/file_3.png?v=1713358898" alt="" /></span>
-                                        Make Payment
+                                        Step 3: Make Payment
                                     </h2>
 
-                                    <span className="ml-auto bg-blue-500 text-white p-2 rounded-full w-10 h-10 flex items-center justify-center">
+                                    <span className="ml-auto bg-purple-800 text-white p-2 rounded-full w-10 h-10 flex items-center justify-center">
                                         03
                                     </span>
                                 </summary>
 
                                 {/* TEXT */}
                                 <p className="mt-1 px-4 pb-4 leading-relaxed text-gray-700">
-                                    After reviewing the quote, choose a payment method that's most convenient for you. We offer multiple secure online payment options for a seamless transaction.
+                                    Review your quote, then select the secure payment method that suits you best. We offer multiple online options to make the transaction quick and hassle-free.
                                 </p>
                             </details>
 
-                            <details className="group rounded-2xl bg-white border border-blue-500 [&_summary::-webkit-details-marker]:hidden">
+                            <details className="group rounded-2xl bg-white border border-purple-800 [&_summary::-webkit-details-marker]:hidden">
                                 {/* HEADER */}
                                 <summary className="flex px-3 py-3 cursor-pointer items-center justify-between gap-1.5 text-gray-900">
                                     <h2 className="text-lg font-medium flex items-center pl-3">
                                         <span><img className='size-10 mr-3' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/file_1_1.png?v=1713358897" alt="" /></span>
-                                        Get Your Work Done
+                                        Step 4: Get Your Project Done
                                     </h2>
 
-                                    <span className="ml-auto bg-blue-500 text-white p-2 rounded-full w-10 h-10 flex items-center justify-center">
+                                    <span className="ml-auto bg-purple-800 text-white p-2 rounded-full w-10 h-10 flex items-center justify-center">
                                         04
                                     </span>
                                 </summary>
 
                                 {/* TEXT */}
                                 <p className="mt-1 px-4 pb-4 leading-relaxed text-gray-700">
-                                    Our experts will begin working on your project promptly, prioritizing quality and timeliness. Upon completion, we'll deliver the final draft, and you're welcome to request revisions as needed.
+                                    Our experts will begin working on your project promptly, focusing on both quality and punctuality. After completion, you'll receive the final version and can request revisions if needed.
                                 </p>
                             </details>
+
                         </div>
 
                         {/* IMAGE */}
                         <div className="right_image mt-5 sm:mt-0 px-3 md:px-40 lg:px-10 xl:px-20 mx-auto">
-                            <img className="object-cover object-center rounded" alt="hero" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_72071.png?v=1712918884" />
+                            <img className="object-cover object-center rounded" alt="hero" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/0f7ed711-c81d-43d1-8a88-781f70a55fb5.png?v=1736073070" />
                         </div>
                     </div>
                 </div>
