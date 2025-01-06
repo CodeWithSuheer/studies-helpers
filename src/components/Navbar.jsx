@@ -51,7 +51,7 @@ const Navbar = () => {
                             {/* -------------- BRAND LOGO -------------- */}
                             <Link onClick={handleLinkClick} to="/" className='flex items-center gap-2'>
                                 {/* <img className="w-auto h-6 sm:h-7" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/profile-pic_6.png?v=1710185888" alt="" /> */}
-                                <h2 className='text-gray-800 dark:text-gray-200 text-2xl font-semibold tracking-wide'>Study Helpers</h2>
+                                <h2 className='text-gray-800 dark:text-gray-200 text-2xl font-semibold tracking-wide'>StudiesHelpers</h2>
                             </Link>
 
                             {/* -------------- HAMBURGER BUTTON FOR MOBILE VIEW -------------- */}

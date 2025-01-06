@@ -46,7 +46,7 @@ export default function AssignmentServices() {
                 <div className="max-w-6xl mx-auto py-14">
                     {/* --------------- HEADER TEXT ---------------  */}
                     <h2 className="mb-3 font-bold pl-2 text-3xl md:text-4xl w-[95%] sm:w-[100%] mx-auto text-[#272727] text-center">
-                        Studies Helpers: Top Features for Quality Academic Support
+                        StudiesHelpers: Top Features for Quality Academic Support
                     </h2>
                     <p className="w-[90%] sm:w-[80%] lg:w-[80%] mx-auto text-black text-center">
                         Learn why students worldwide rely on us for expert, tailor-made academic guidance and writing help. Our dedication to authentic work, timely delivery, and learner-focused principles sets us apart.

@@ -20,7 +20,7 @@ const ChooseFrom = () => {
                     <div className="lg:flex-grow px-4 md:w-1/2 xl:pl-20 lg:pl-12 md:pl-16 flex flex-col md:items-start md:text-left items-start">
                         <h2 className="mb-3 sm:mb-4 text-2xl font-semibold capitalize text-black lg:text-4xl">Access Top-Rated Subject Specialists Today</h2>
                         <p className="mb-3 sm:mb-4 text-md leading-6 font-normal text-black">
-                            Overwhelmed by multiple deadlines? Seeking to excel in complex subjects? Studies Helpers connects you with accomplished academic experts who offer personalized support—so you can learn more efficiently, build confidence, and achieve notable results.
+                            Overwhelmed by multiple deadlines? Seeking to excel in complex subjects? StudiesHelpers connects you with accomplished academic experts who offer personalized support—so you can learn more efficiently, build confidence, and achieve notable results.
                         </p>
 
                         <div className="mt-3 flex justify-start">

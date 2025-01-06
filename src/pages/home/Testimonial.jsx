@@ -87,7 +87,7 @@ const Testimonial = () => {
                 </div>
 
                 <p className="mt-4">
-                  “I was worried about staying on top of my online class, but the support from Studies Helpers  changed everything. I not only managed to earn an A but also gained a deeper grasp of the course material.”
+                  “I was worried about staying on top of my online class, but the support from StudiesHelpers  changed everything. I not only managed to earn an A but also gained a deeper grasp of the course material.”
                 </p>
               </blockquote>
             </div>
@@ -153,7 +153,7 @@ const Testimonial = () => {
                 </div>
 
                 <p className="mt-4 text-gray-700">
-                  “Exams have always made me nervous, but the strategies and practice sessions I got from Studies Helpers  boosted my confidence and results more than I ever expected.”
+                  “Exams have always made me nervous, but the strategies and practice sessions I got from StudiesHelpers  boosted my confidence and results more than I ever expected.”
                 </p>
               </blockquote>
             </div>
@@ -219,7 +219,7 @@ const Testimonial = () => {
                 </div>
 
                 <p className="mt-4 text-gray-700">
-                  “Assignments used to overwhelm me. Thanks to Studies Helpers , I’m meeting deadlines effortlessly, and my grades are already going up.”
+                  “Assignments used to overwhelm me. Thanks to StudiesHelpers , I’m meeting deadlines effortlessly, and my grades are already going up.”
                 </p>
               </blockquote>
             </div>
@@ -278,7 +278,7 @@ const Testimonial = () => {
                 </div>
 
                 <p className="mt-4 text-gray-700">
-                  “I’ve tried other services before, but none compare to Studies Helpers in terms of quality and reliability. I’ll definitely be back for future help!”
+                  “I’ve tried other services before, but none compare to StudiesHelpers in terms of quality and reliability. I’ll definitely be back for future help!”
 
                 </p>
               </blockquote>
@@ -345,7 +345,7 @@ const Testimonial = () => {
                 </div>
 
                 <p className="mt-4 text-gray-700">
-                  “Balancing work, family, and classes isn’t easy, but the tutors at Studies Helpers have been flexible and supportive every step of the way. They’re a true lifesaver!”
+                  “Balancing work, family, and classes isn’t easy, but the tutors at StudiesHelpers have been flexible and supportive every step of the way. They’re a true lifesaver!”
                 </p>
               </blockquote>
             </div>
@@ -411,7 +411,7 @@ const Testimonial = () => {
                 </div>
 
                 <p className="mt-4 text-gray-700">
-                  “Late-night questions, last-minute study sessions—Studies Helpers  has been there for it all. Knowing I can get help anytime truly puts me at ease.”
+                  “Late-night questions, last-minute study sessions—StudiesHelpers  has been there for it all. Knowing I can get help anytime truly puts me at ease.”
                 </p>
               </blockquote>
             </div>
@@ -543,7 +543,7 @@ const Testimonial = () => {
                 </div>
 
                 <p className="mt-4 text-gray-700">
-                  “As a non-native English speaker, I’ve always found writing challenging. Studies Helpers’s support helped me meet my professors’ standards and build my confidence.”
+                  “As a non-native English speaker, I’ve always found writing challenging. StudiesHelpers’s support helped me meet my professors’ standards and build my confidence.”
                 </p>
               </blockquote>
             </div>
@@ -602,7 +602,7 @@ const Testimonial = () => {
                 </div>
 
                 <p className="mt-4 text-gray-700">
-                  “When I had a research paper due in no time, Studies Helpers  came through with top-quality work. I met my deadline and ended up with an excellent grade!”
+                  “When I had a research paper due in no time, StudiesHelpers  came through with top-quality work. I met my deadline and ended up with an excellent grade!”
                 </p>
               </blockquote>
             </div>

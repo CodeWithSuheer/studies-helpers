@@ -13,7 +13,7 @@ const HelpWithClassServices = () => {
     const services = [
         {
             title: "Online Classes",
-            description: "Finding your online classes overwhelming? Studies Helpers offers flexible, dependable homework support at reasonable rates, along with unlimited revisions. Let us lessen your workload so you can focus on what matters most.",
+            description: "Finding your online classes overwhelming? StudiesHelpers offers flexible, dependable homework support at reasonable rates, along with unlimited revisions. Let us lessen your workload so you can focus on what matters most.",
             link: "/help-with-class",
             image: classes
         },

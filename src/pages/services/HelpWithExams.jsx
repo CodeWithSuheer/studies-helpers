@@ -27,6 +27,7 @@ import examimg04 from '../../assets/sample-exam/img04.jpeg'
 // GEDTest
 import GEDTestimg01 from '../../assets/GEDTest/img01.jpeg'
 import GEDTestimg02 from '../../assets/GEDTest/img02.jpeg'
+import TrustSecExams from "../../components/TrustSecForExams";
 
 const HelpWithExams = () => {
   const images = [
@@ -93,7 +94,7 @@ const HelpWithExams = () => {
               ))}
 
               <div className="mt-6 flex justify-start">
-                <Button text="Claim 50% Student Discount Now" />
+                <Button text="Claim 15% Student Discount Now" />
               </div>
             </div>
 
@@ -106,7 +107,7 @@ const HelpWithExams = () => {
       </section>
 
       {/* --------------- TRUST SECTION ---------------  */}
-      <TrustSec />
+      <TrustSecExams />
 
       {/* --------------- LOGO GRID ---------------  */}
       <LogoGrid />
@@ -118,7 +119,7 @@ const HelpWithExams = () => {
             <img
               className="object-cover object-center rounded-xl"
               alt="hero"
-              src={img}
+              src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/S7.png?v=1736186010"
             />
           </div>
 
@@ -130,10 +131,10 @@ const HelpWithExams = () => {
               No More Exam Worries We're Here for You!
             </h1>
             <p className="mb-6 leading-relaxed">
-              Exams can be daunting, but you don’t have to face them solo. Studies Helpers connects you with expert guidance and subject-specific support to help you earn top marks with ease. Kick back and let us tailor an approach just for you, complete with total confidentiality and around-the-clock assistance. Plus, our student-friendly pricing makes sure you get quality help without breaking the bank.
+              Exams can be daunting, but you don’t have to face them solo. StudiesHelpers connects you with expert guidance and subject-specific support to help you earn top marks with ease. Kick back and let us tailor an approach just for you, complete with total confidentiality and around-the-clock assistance. Plus, our student-friendly pricing makes sure you get quality help without breaking the bank.
             </p>
             <div className="flex justify-start">
-              <Button text="Click to Enjoy a Discount" />
+              <Button text="Chat Now" />
             </div>
           </div>
         </div>

@@ -24,9 +24,9 @@ const Dummy = () => {
 
                             {/* LOGO & TEXT */}
                             <div className="sm:col-span-2">
-                                <h1 onClick={handleScroll} className="max-w-lg text-3xl cursor-pointer font-semibold tracking-wider text-gray-900">Study Helpers</h1>
+                                <h1 onClick={handleScroll} className="max-w-lg text-3xl cursor-pointer font-semibold tracking-wider text-gray-900">StudiesHelpers</h1>
                                 <p className='mt-5 text-sm w-[100%] sm:w-[70%] text-gray-900'>
-                                    Study Helpers is providing help to students as academic consultants, to resolve their queries, helping them by providing sufficient help in assignments and exams. There are a vast variety of subjects offered by Study Helpers through experts.
+                                    StudiesHelpers is providing help to students as academic consultants, to resolve their queries, helping them by providing sufficient help in assignments and exams. There are a vast variety of subjects offered by StudiesHelpers through experts.
                                 </p>
                             </div>
 
@@ -97,7 +97,7 @@ const Dummy = () => {
                 </div>
 
                 <div className="text-sm py-5 border-t text-center text-white">
-                    <p>Copyrights © 2024 All Rights Reserved by Study Helpers</p>
+                    <p>Copyrights © 2024 All Rights Reserved by StudiesHelpers</p>
                 </div>
             </footer>
         </>

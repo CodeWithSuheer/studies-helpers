@@ -49,7 +49,7 @@ const HomePage = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-          Study Helpers: Academic Writing Services | Online Help with Money Back
+          StudiesHelpers: Academic Writing Services | Online Help with Money Back
           Guarantee
         </title>
       </Helmet>
@@ -159,21 +159,21 @@ const HomePage = () => {
       {/* --------------- CTA SECTION ---------------  */}
       <CtaOneV2
         mainHeading="Eliminate Grade Stress - Invest in Expert Academic Support Today"
-        subHeading="Partner with Studies Helpers  to aim for top results through professional guidance. A small step leads to significant academic gains."
-        buttonText="Get Expert Support Now"
+        subHeading="Partner with StudiesHelpers  to aim for top results through professional guidance. A small step leads to significant academic gains."
+        buttonText="Chat Now"
       />
 
       <Comparison
         mainHeading="Why You Should Hire Us for Online Classes, Assignments & Exams?"
         subHeading="We can align our support with the standards set by any educational institution, ensuring your assignments and exams fulfill strict academic requirements."
-        buttonText="Get Expert Support Now"
+        buttonText="Chat Now"
       />
 
 
       {/* --------------- PROCESS WE FOLLOW ---------------  */}
       <HomeProcess />
 
-      <CtaOne text="Get Expert Support Now" />
+      <CtaOne text="Order Now" />
 
       <Subject heading="Subjects We have Professionals For" />
 
@@ -181,7 +181,7 @@ const HomePage = () => {
       <Commitments />
 
       {/* ---------------SECOND CTA SECTION ---------------  */}
-      <CtaTwo text="Get Expert Support Now" />
+      <CtaTwo text="Chat Now" />
 
       {/* ---------------FAQ'S ---------------  */}
       <FaqHome />

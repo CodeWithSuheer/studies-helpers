@@ -79,7 +79,7 @@ const Header = () => {
                 alt="logo"
               />
               <h2 className="poppins text-gray-800 dark:text-gray-200 text-xl font-semibold">
-                StudyHelpers
+                StudiesHelpers
               </h2>
             </Link>
 
@@ -118,7 +118,7 @@ const Header = () => {
 
           {/* MENU */}
           <div
-            className={`flex-1 justify-self-center pb-8 mt-8 md:block md:pb-0 md:mt-0 ${responsiveMenu ? "block" : "hidden"
+            className={`flex-1 justify-self-center  pb-8 mt-8 md:block md:pb-0 md:mt-0 ${responsiveMenu ? "block" : "hidden"
               }`}
           >
             <ul className="text-center justify-center items-center space-y-8 md:flex md:space-x-6 lg:space-x-8 md:space-y-0">
@@ -178,7 +178,7 @@ const Header = () => {
 
                   {isDropDownOpen && (
                     <div
-                      className="absolute right-0 z-20 w-40 py-2 mt-0 overflow-hidden origin-top-right bg-white rounded-xl shadow-xl"
+                      className="absolute right-0 z-20 w-40 py-2 mt-0 overflow-hidden origin-top-right bg-purple-100 rounded-xl shadow-xl"
                       onMouseEnter={() => setIsDropDownOpen(true)}
                       onMouseLeave={() => setIsDropDownOpen(false)}
                     >

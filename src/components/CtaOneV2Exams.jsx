@@ -13,7 +13,7 @@ const CtaOneV2Exams = ({
 
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-5 lg:gap-8">
 
-            <div className="lg:col-span-3 lg:flex-grow pr-0 sm:pr-8 flex flex-col text-start">
+            <div className="lg:col-span-3 lg:flex-grow pr-0 sm:pr-8 flex flex-col text-start justify-center">
 
               <h1 className="mb-1 pb-3 font-bold max-w-xl text-3xl md:text-5xl bg-gradient-to-tr from-violet-700  to-violet-300 bg-clip-text text-transparent">Take the Pressure Off Exams—Get Expert Assistance Today!</h1>
 
@@ -27,7 +27,7 @@ const CtaOneV2Exams = ({
             </div>
 
             <div className="lg:col-span-2 lg:max-w-lg lg:w-full mb-10 md:mb-0">
-              <img className="object-cover object-center rounded" alt="hero" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_72080.png?v=1712918877" />
+              <img className="object-cover object-center rounded" alt="hero" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/S5.png?v=1736183448" />
             </div>
 
           </div>

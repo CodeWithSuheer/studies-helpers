@@ -26,15 +26,15 @@ const FaqAssignment = () => {
     const faqs = [
         {
             question: "Can You Assist Me with My Assignment?",
-            answer: "Absolutely! Our skilled writers at Studies Helpers are prepared to handle your assignments. Just submit your order, and we'll deliver a thoroughly researched, high-quality paper customized to your needs."
+            answer: "Absolutely! Our skilled writers at StudiesHelpers are prepared to handle your assignments. Just submit your order, and we'll deliver a thoroughly researched, high-quality paper customized to your needs."
         },
         {
             question: "Can You Help Me with My Assignment Confidentially?",
-            answer: "Certainly. At Studies Helpers , we prioritize your privacy. Rest assured that your personal details and assignment information remain confidential, ensuring a secure and discreet experience."
+            answer: "Certainly. At StudiesHelpers , we prioritize your privacy. Rest assured that your personal details and assignment information remain confidential, ensuring a secure and discreet experience."
         },
         {
             question: "How Can I Get Assistance with My Assignment?",
-            answer: "It's simple. Visit Studies Helpers website, fill in the order form with your assignment details, and our team will quickly connect with you to offer the support you need."
+            answer: "It's simple. Visit StudiesHelpers website, fill in the order form with your assignment details, and our team will quickly connect with you to offer the support you need."
         },
         {
             question: "What Guarantees Do You Provide for Assignment Assistance?",
@@ -42,11 +42,11 @@ const FaqAssignment = () => {
         },
         {
             question: "How Can I Pay for Assignment Assistance?",
-            answer: "Paying for your order is straightforward with Studies Helpers . After placing your request, choose from trusted payment methods, including credit cards, PayPal, and others."
+            answer: "Paying for your order is straightforward with StudiesHelpers . After placing your request, choose from trusted payment methods, including credit cards, PayPal, and others."
         },
         {
             question: "Do You Offer Online Assignment Help for All Subjects?",
-            answer: "Yes! Studies Helpers covers an extensive range of disciplines. Whatever your major or focus area, our specialists can assist you, ensuring thorough and accurate help across fields like business, nursing, engineering, humanities, and more."
+            answer: "Yes! StudiesHelpers covers an extensive range of disciplines. Whatever your major or focus area, our specialists can assist you, ensuring thorough and accurate help across fields like business, nursing, engineering, humanities, and more."
         },
         {
             question: "What If I'm Not Satisfied with the Assignment Help?",
@@ -54,10 +54,10 @@ const FaqAssignment = () => {
         },
         {
             question: "Can I Communicate with the Expert Working on My Assignment?",
-            answer: "Yes. At Studies Helpers , we encourage direct communication. You can contact your assigned expert through a secure messaging system, share extra resources, or seek clarification on any part of the assignment."
+            answer: "Yes. At StudiesHelpers , we encourage direct communication. You can contact your assigned expert through a secure messaging system, share extra resources, or seek clarification on any part of the assignment."
         },
         {
-            question: "How does Study Helpers handle plagiarism in assignments?",
+            question: "How does StudiesHelpers handle plagiarism in assignments?",
             answer: "Originality is vital to our process. We perform in-depth research, apply proper referencing, and use advanced plagiarism detection tools to ensure each paper is both unique and academically sound."
         },
     ];

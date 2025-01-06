@@ -13,7 +13,7 @@ const HomeServices = () => {
     const services = [
         {
             title: "Online Class Support",
-            description: "Keeping up with virtual coursework can be both draining and time-consuming. Thankfully, Studies Helpers  offers you access to over 50+ top-rated professionals who aim to guide you toward academic excellence. Let us help you meet every deadline, understand tough concepts, and tackle your online classes with ease.",
+            description: "Keeping up with virtual coursework can be both draining and time-consuming. Thankfully, StudiesHelpers  offers you access to over 50+ top-rated professionals who aim to guide you toward academic excellence. Let us help you meet every deadline, understand tough concepts, and tackle your online classes with ease.",
             link: "/help-with-class",
             image: classes
         },

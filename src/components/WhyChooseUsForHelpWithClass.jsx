@@ -21,7 +21,7 @@ const WhyChooseUsForHelpWithClass = () => {
                             <img className='w-12' src={image04} alt="" />
                             <h3 className="mt-2 text-xl">Least Interest in Studies</h3>
                             <p className="mt-2 text-gray-700 text-sm leading-normal">
-                                Feeling uninterested in a particular subject or struggling to finish the course can be discouraging. Even if you feel like giving up, you still need to pass. Don't hesitate—reach out to Study Helpers's subject experts. We'll guide your daily coursework and help you achieve A or B grades.
+                                Feeling uninterested in a particular subject or struggling to finish the course can be discouraging. Even if you feel like giving up, you still need to pass. Don't hesitate—reach out to StudiesHelpers's subject experts. We'll guide your daily coursework and help you achieve A or B grades.
                             </p>
                         </div>
 
@@ -29,7 +29,7 @@ const WhyChooseUsForHelpWithClass = () => {
                             <img className='w-12' src={image03} alt="" />
                             <h3 className="mt-2 text-xl">Time Management in Online Learning</h3>
                             <p className="mt-2 text-gray-700 text-sm leading-normal">
-                                Gaining a solid understanding of complex topics requires consistent study time. Online courses usually involve frequent assignments to reinforce learning, which can be tough to manage with a busy schedule. Studies Helpers offers practical solutions to keep you on track, so you can hit your academic targets without burnout.
+                                Gaining a solid understanding of complex topics requires consistent study time. Online courses usually involve frequent assignments to reinforce learning, which can be tough to manage with a busy schedule. StudiesHelpers offers practical solutions to keep you on track, so you can hit your academic targets without burnout.
                             </p>
                         </div>
 
@@ -37,7 +37,7 @@ const WhyChooseUsForHelpWithClass = () => {
                             <img className='w-12' src={image01} alt="" />
                             <h3 className="mt-2 text-xl">Feeling the Pressure of Deadlines?</h3>
                             <p className="mt-2 text-gray-700 text-sm leading-normal">
-                                Deadlines can be stressful, especially when you've got multiple responsibilities. Online courses often have regular tasks that must be submitted on time to maintain good grades. At Studies Helpers  we offer dedicated assignment support, helping you meet deadlines with confidence and less worry.
+                                Deadlines can be stressful, especially when you've got multiple responsibilities. Online courses often have regular tasks that must be submitted on time to maintain good grades. At StudiesHelpers  we offer dedicated assignment support, helping you meet deadlines with confidence and less worry.
                             </p>
                         </div>
 
@@ -45,7 +45,7 @@ const WhyChooseUsForHelpWithClass = () => {
                             <img className='w-12' src={image02} alt="" />
                             <h3 className="mt-2 text-xl">Balancing Work and Studies</h3>
                             <p className="mt-2 text-gray-700 text-sm leading-normal">
-                                Juggling a full-time job while taking an online course is no small feat. With limited time for thorough study, performance can suffer. Studies Helpers provides flexible support, helping you manage your academic load alongside professional duties, so achieving success in both spheres is far more attainable.
+                                Juggling a full-time job while taking an online course is no small feat. With limited time for thorough study, performance can suffer. StudiesHelpers provides flexible support, helping you manage your academic load alongside professional duties, so achieving success in both spheres is far more attainable.
                             </p>
                         </div>
                     </div>

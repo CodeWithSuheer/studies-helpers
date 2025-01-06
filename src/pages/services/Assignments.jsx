@@ -98,7 +98,7 @@ const Assignments = () => {
                 Stressed About Assignments? Let Our Experts Lighten Your Load!
               </h2>
               <p className="mb-3 sm:mb-4 text-md sm:text-md w-full sm:max-w-lg  font-normal">
-                Managing multiple assignments can be daunting—strict deadlines, intricate requirements, and high standards often create pressure. Studies Helpers is here to transform that stress into success. Our top-rated, highly qualified professionals provide tailored support, ensuring every assignment meets—and exceeds—your academic goals.
+                Managing multiple assignments can be daunting—strict deadlines, intricate requirements, and high standards often create pressure. StudiesHelpers is here to transform that stress into success. Our top-rated, highly qualified professionals provide tailored support, ensuring every assignment meets—and exceeds—your academic goals.
               </p>
 
               <div className="mt-4 flex justify-start">
@@ -135,7 +135,7 @@ const Assignments = () => {
               Choose Our Experienced Assignment Experts
             </h1>
             <p className="mb-3 leading-relaxed">
-              At Studies Helpers , we appreciate how essential high-quality writing is for academic success. Our seasoned professionals excel at delivering carefully researched, well-structured, and expertly formatted assignments—always delivered punctually. Trust our team to boost your grades while lightening your academic load.
+              At StudiesHelpers , we appreciate how essential high-quality writing is for academic success. Our seasoned professionals excel at delivering carefully researched, well-structured, and expertly formatted assignments—always delivered punctually. Trust our team to boost your grades while lightening your academic load.
             </p>
             <p className="mb-4 leading-relaxed">
               Ready to Begin?

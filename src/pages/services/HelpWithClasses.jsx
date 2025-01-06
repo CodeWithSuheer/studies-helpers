@@ -78,6 +78,17 @@ const HelpWithClasses = () => {
     window.scroll(0, 0)
   }
 
+  const StudyHelpersData = [
+    "Comprehensive Class Management",
+    "Subject Matter Expertise",
+    "Flexible Scheduling",
+    "Personalized 24/7 Support",
+  ]
+
+  const tick = (
+    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 16 16"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m2.75 8.75l3.5 3.5l7-7.5" /></svg>
+  )
+
   return (
     <>
       <Helmet>
@@ -95,22 +106,17 @@ const HelpWithClasses = () => {
                 Pay an Expert for Online Class Assistance and Improve Your Grades!
               </h2>
               <p className="mb-3 sm:mb-4 text-md sm:text-md w-full sm:max-w-lg font-normal">
-                Are your online classes getting overwhelming? Don’t worry—Studies Helpers  is here to help! Our experienced tutors and academic specialists provide the support you need to succeed in your coursework.
+                Are your online classes getting overwhelming? Don’t worry—StudiesHelpers  is here to help! Our experienced tutors and academic specialists provide the support you need to succeed in your coursework.
               </p>
 
-              <div className="button mt-4 flex justify-start items-center gap-x-7">
-                <div className="text-center bg-gradient-to-tl from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white px-5 py-3">
-                  <h2 className="mb-1 text-3xl font-semibold">8200+</h2>
-                  <p className="text-sm">Classes With A/B</p>
+              {StudyHelpersData?.map((data, index) => (
+                <div key={index} className="flex gap-x-2 sm:gap-x-3 justify-start items-center">
+                  <span className="icon text-green-500">
+                    {tick}
+                  </span>
+                  <p className='text-sm sm:text-lg font-semibold'>{data}</p>
                 </div>
-
-                <div className="text-center bg-gradient-to-tl from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white px-5 py-3">
-                  <h2 className="mb-1 text-3xl font-semibold">9.8/10</h2>
-                  <p className="text-sm">Feedback Rating</p>
-                </div>
-              </div>
-
-              <ExpertsAvailable />
+              ))}
             </div>
 
             {/* EMAIL FORM */}
@@ -134,7 +140,7 @@ const HelpWithClasses = () => {
             <img
               className="object-cover object-center rounded-3xl"
               alt="img"
-              src={img01}
+              src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/S6.png?v=1736184663"
             />
           </div>
 
@@ -143,7 +149,7 @@ const HelpWithClasses = () => {
               Struggling with Your Online Classes? Let Our Experts Assist!
             </h1>
             <p className="mb-6 leading-relaxed">
-              Managing online coursework can feel daunting, but you don’t have to tackle it on your own. With Studies Helpers , you gain access to 50+ highly qualified professionals who guide you toward academic excellence. Our team delivers high-quality, plagiarism-free work that meets rigorous academic standards—so say goodbye to deadline anxiety and tough assignments, and embrace expert support for peace of mind. We’ll handle your coursework with care and precision, giving you the freedom to focus on your priorities.
+              Managing online coursework can feel daunting, but you don’t have to tackle it on your own. With StudiesHelpers , you gain access to 50+ highly qualified professionals who guide you toward academic excellence. Our team delivers high-quality, plagiarism-free work that meets rigorous academic standards—so say goodbye to deadline anxiety and tough assignments, and embrace expert support for peace of mind. We’ll handle your coursework with care and precision, giving you the freedom to focus on your priorities.
             </p>
             <div className="flex justify-start">
               <Button text="Get Your Free Quote Now!" />
