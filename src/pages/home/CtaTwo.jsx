@@ -2,7 +2,10 @@ import React from 'react'
 import { LuMessagesSquare } from "react-icons/lu";
 import { FaArrowRightLong } from "react-icons/fa6";
 
-const CtaTwo = ({ heading = "Take Your Grades to the Next Level with StudiesHelpers", text }) => {
+const CtaTwo = ({
+    heading = "Take Your Grades to the Next Level with StudiesHelpers",
+    text
+}) => {
     return (
         <>
             <section className='cta_section2'>

@@ -45,7 +45,7 @@ const Services = () => {
                             <h3 className="mb-2 font-medium text-xl text-[#945EB3] group-hover:text-white">{service.title}</h3>
                             <p className="mb-3 sm:mb-4 text-sm leading-6 font-normal text-black group-hover:text-white">{service.description}</p>
                             <Link to={service.link} onClick={handleMoveToTop} className='flex items-center gap-2 text-md font-semibold text-[#945EB3] group-hover:text-white'>
-                                READ MORE <FaArrowRightLong size={14} />
+                                Order Now <FaArrowRightLong size={14} />
                             </Link>
                         </div>
                     ))}

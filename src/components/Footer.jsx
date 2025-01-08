@@ -59,6 +59,7 @@ const Footer = () => {
                                 {[
                                     { label: "Help With Class", to: "/help-with-class" },
                                     { label: "Help With Exam", to: "/help-with-exam" },
+                                    { label: "Help With Course", to: "/help-with-course" },
                                     { label: "Assignments", to: "/assignments" },
                                     { label: "Samples", to: "/samples" },
                                 ].map((link) => (

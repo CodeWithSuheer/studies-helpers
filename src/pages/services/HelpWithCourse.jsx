@@ -41,9 +41,13 @@ import classesimg07 from '../../assets/samples-classes/img07.jpeg'
 import classesimg08 from '../../assets/samples-classes/img08.jpeg'
 import classesimg10 from '../../assets/samples-classes/img10.jpeg'
 import HelpWithClassServices from "../home/HelpWithClassServices";
+import EmailFormForHelpWithCourses from "../../components/email-forms/EmailFormForHelpWithCourses";
+import WhyChooseUsForHelpWithCourses from "../../components/WhyChooseUsForHelpWithCourses";
+import ProcessForHelpWithCources from "../../components/ProcessForHelpWithCources";
+import FaqClassCourses from "../home/FaqClassCourses";
 
 
-const HelpWithClasses = () => {
+const HelpWithCourse = () => {
   const images = [
     {
       img: classesimg01,
@@ -79,10 +83,10 @@ const HelpWithClasses = () => {
   }
 
   const StudyHelpersData = [
-    "Comprehensive Class Management",
-    "Subject Matter Expertise",
+    "Comprehensive Course Management",
+    "Expert Assistance",
     "Flexible Scheduling",
-    "Personalized 24/7 Support",
+    "Progress Tracking",
   ]
 
   const tick = (
@@ -103,10 +107,10 @@ const HelpWithClasses = () => {
             {/* CONTENT */}
             <div className="px-4 sm:px-5 lg:flex-grow lg:w-1/2 xl:pr-20 lg:pr-12 md:pr-16 flex flex-col md:items-start md:text-left items-start">
               <h2 className="mb-3 sm:mb-4 text-2xl sm:text-3xl font-semibold tracking-wide w-full lg:max-w-md md:text-3xl lg:text-4xl">
-                Pay an Expert for Online Class Assistance and Improve Your Grades!
+                Pay an Expert for Online Course Assistance and Elevate Your Grades!
               </h2>
               <p className="mb-3 sm:mb-4 text-md sm:text-md w-full sm:max-w-lg font-normal">
-                Are your online classes getting overwhelming? Don’t worry—StudiesHelpers  is here to help! Our experienced tutors and academic specialists provide the support you need to succeed in your coursework.
+                Are your online courses feeling overwhelming? Don't stress—Studies Helpers is here with specialized “Take My Online Course” services, backed by years of academic expertise. Our seasoned professionals guide you through each step, from routine lectures to demanding projects, ensuring you excel without sacrificing your peace of mind.
               </p>
 
               {StudyHelpersData?.map((data, index) => (
@@ -117,11 +121,16 @@ const HelpWithClasses = () => {
                   <p className='text-sm sm:text-lg font-semibold'>{data}</p>
                 </div>
               ))}
+
+              <div className="mt-6 flex justify-start">
+                <Button text="Order Now" />
+              </div>
+
             </div>
 
             {/* EMAIL FORM */}
             <div className="lg:max-w-lg lg:w-1/2 w-full px-2 mt-10 lg:mt-0">
-              <EmailFormForHelpWithClass />
+              <EmailFormForHelpWithCourses />
             </div>
           </div>
         </div>
@@ -146,46 +155,42 @@ const HelpWithClasses = () => {
 
           <div className="lg:flex-grow px-5 md:px-5 md:w-1/2 md:pl-6 lg:pl-14 xl:pl-12 flex flex-col text-left">
             <h1 className="mb-5 font-bold max-w-lg text-3xl md:text-4xl text-[#272727]">
-              Struggling with Your Online Classes? Let Our Experts Assist!
+              Struggling with Your Online Courses? Let Our Experts Assist!
             </h1>
             <p className="mb-6 leading-relaxed">
-              Managing online coursework can feel daunting, but you don’t have to tackle it on your own. With StudiesHelpers , you gain access to 50+ highly qualified professionals who guide you toward academic excellence. Our team delivers high-quality, plagiarism-free work that meets rigorous academic standards—so say goodbye to deadline anxiety and tough assignments, and embrace expert support for peace of mind. We’ll handle your coursework with care and precision, giving you the freedom to focus on your priorities.
+              Balancing multiple online courses can be challenging. With Studies Helpers, you gain access to top-tier academic specialists who provide comprehensive course management: from attending online sessions and completing assignments to participating in discussions. Our experts tailor their support to your exact needs, delivering high-quality, plagiarism-free work that meets rigorous university standards.
             </p>
             <div className="flex justify-start">
-              <Button text="Get Your Free Quote Now!" />
+              <Button text="Live Chat" />
             </div>
           </div>
         </div>
       </section>
 
       {/* --------------- WHY CHOOSE US ---------------  */}
-      <WhyChooseUsForHelpWithClass />
+      <WhyChooseUsForHelpWithCourses />
 
       {/* --------------- CTAV2 ---------------  */}
       <CtaOneV2
-        mainHeading="Ready to stop stressing about your grades?"
-        subHeading="Connecting with our experts is a small investment toward better academic results."
-        buttonText="Get Your Class Help Now"
+        mainHeading="Ready to Stop Stressing Over Your Grades?"
+        subHeading="Teaming up with our experts is a cost-effective step toward improved academic outcomes."
+        buttonText="Order Now"
       />
 
       {/* --------------- COMPARISON ---------------  */}
       <Comparison
-        mainHeading="Why Should You Hire Us to Support Your Online Class?"
-        subHeading="Our services align with the standards of all universities and schools, ensuring our assistance fulfills your academic needs."
+        mainHeading="Why Should You Hire Us to Support Your Online Course?"
+        subHeading="We adapt to the academic standards of all educational institutions, ensuring every lecture, assignment, and project aligns with your curriculum's requirements."
+        buttonText="Hire Now"
       />
 
       {/* --------------- PROOF ---------------  */}
-      <section className="bg-white">
+      {/* <section className="bg-white">
         <div className="max-w-5xl px-5 xl:px-0 mx-auto pt-20 pb-10">
-          {/* --------------- HEADER TEXT ---------------  */}
           <h2 className="mb-3 font-bold text-2xl md:text-4xl w-[95%] sm:w-[100%] mx-auto text-[#272727] text-center">
             We Helped Students Achieved A+ Grades
           </h2>
-          {/* <h2 className="mb-3 font-bold text-2xl md:text-4xl w-[95%] sm:w-[100%] mx-auto text-[#272727] text-center">
-            Achieved A-Grades for Students!
-          </h2> */}
 
-          {/* --------------- CONTENT ---------------  */}
           <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:gap-8">
             {images.map((data, index) => (
               <div key={index} className="my-3">
@@ -198,25 +203,20 @@ const HelpWithClasses = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* --------------- CTA SECTION ---------------  */}
-      <CtaOne text="Help Me with My Class" />
+      <CtaOne text="Order Now" />
 
       {/* --------------- PROCESS WE FOLLOW ---------------  */}
-      <ProcessForHelpWithClass />
+      <ProcessForHelpWithCources />
 
-      {/* --------------- SERVICES ---------------  */}
-      <HelpWithClassServices />
 
       {/* --------------- SECOND CTA SECTION ---------------  */}
-      <CtaTwo text="Help Me with My Class" />
-
-      {/* --------------- SUBJECT DETAILS ---------------  */}
-      <Subject />
+      <CtaTwo heading="Take Your Grades to New Heights with Studies Helpers" text="Order Now" />
 
       {/* --------------- FAQ'S ---------------  */}
-      <FaqClass />
+      <FaqClassCourses />
 
       {/* --------------- TESTIMONIAL ---------------  */}
       <Testimonial />
@@ -224,4 +224,4 @@ const HelpWithClasses = () => {
   );
 };
 
-export default HelpWithClasses;
+export default HelpWithCourse;

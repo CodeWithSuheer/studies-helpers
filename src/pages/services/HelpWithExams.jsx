@@ -71,7 +71,7 @@ const HelpWithExams = () => {
       </Helmet>
 
       {/* --------------- HERO SECTION ---------------  */}
-      <section className="text-white onlineClass_backgroundImage mb-0 lg:mb-0">
+      <section className="text-white home_backgroundImage mb-0 lg:mb-0">
         <div className="max-w-7xl mx-auto md:px-10 pt-28 pb-10 flex justify-center items-center min-h-[100vh] relative z-10">
           <div className="flex flex-col lg:flex-row justify-center items-center">
             {/* CONTENT */}

@@ -28,6 +28,7 @@ import WhatsappButton from "./components/whatsappButton";
 import "./App.css";
 import HelpWithClasses from "./pages/services/HelpWithClasses";
 import HelpWithExams from "./pages/services/HelpWithExams";
+import HelpWithCourse from "./pages/services/HelpWithCourse";
 
 
 function App() {
@@ -63,6 +64,7 @@ function App() {
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
 
           {/* SERVICES */}
+          <Route path="/help-with-course" element={<HelpWithCourse />} />
           <Route path="/help-with-class" element={<HelpWithClasses />} />
           <Route path="/help-with-exam" element={<HelpWithExams />} />
           <Route path="/assignments" element={<Assignments />} />
