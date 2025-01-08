@@ -35,11 +35,12 @@
         });
       };
 
-      Tawk_API.onMessageSent = function () {
+      Tawk_API.onChatMessageVisitor = function (message) {
         window.dataLayer = window.dataLayer || [];
         window.dataLayer.push({
           event: "tawk_message_sent",
           chat_status: "active",
+          message_content: message,
         });
       };
     </script>
