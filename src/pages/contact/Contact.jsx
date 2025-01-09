@@ -39,7 +39,7 @@ const Contact = () => {
                 Email to our friendly team.
               </p>
               <p className="mt-2 text-sm text-primaryText dark:text-blue-400">
-                support@studyhelpers.com
+                support@studywello.com
               </p>
             </div>
             <div className="p-4 rounded-lg bg-surfacev2 md:p-6">
