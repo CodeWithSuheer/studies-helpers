@@ -67,7 +67,7 @@ const HelpWithExams = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Exams Help</title>
+        <title>Help With Exams</title>
       </Helmet>
 
       {/* --------------- HERO SECTION ---------------  */}

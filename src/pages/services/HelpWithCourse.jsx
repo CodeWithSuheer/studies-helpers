@@ -97,7 +97,7 @@ const HelpWithCourse = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Pay Someone To Do My Class For Me | Take My Class</title>
+        <title>Help With Course</title>
       </Helmet>
 
       {/* --------------- HERO SECTION ---------------  */}

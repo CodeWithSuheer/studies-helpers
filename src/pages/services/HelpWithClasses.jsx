@@ -93,7 +93,7 @@ const HelpWithClasses = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Pay Someone To Do My Class For Me | Take My Class</title>
+        <title>Help With Class</title>
       </Helmet>
 
       {/* --------------- HERO SECTION ---------------  */}
